@@ -1,0 +1,13 @@
+.display-1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 79px;
+    text-align: center;
+    color: #1C1C1F;
+}
+
+.text-yellow {
+    color: #FF7300;
+}
