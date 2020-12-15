@@ -1,3 +1,44 @@
-.display-1 {
-    font-weight: 400px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
 }
+
+.container {
+  width: 100%;
+  margin: 16px auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    width: 544px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 816px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1146px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .container {
+    width: 1404px;
+  }
+}
+
+/* //////Nav section starts here */
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
