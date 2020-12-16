@@ -40,5 +40,67 @@
 .nav {
   display: flex;
   justify-content: space-between;
+  margin: 40px 0 44px 0;
 }
+.container .nav .nav__right .nav__list {
+  display: flex;
+}
+.container .nav .nav__right .nav__list .li {
+  margin-right: 38px;
+}
+.container .nav .nav__right .nav__list .nav__dropdown {
+  position: absolute;
+  display: none;
+}
+.container .nav .nav__right .nav__list .nav__dropdown-active {
+  display: block;
+}
+.container .nav .nav__right .nav__list .nav__dropdown .dropdown-box {
+  padding: 5px 13px;
+  width: 57px;
+  height: 58px;
+  border-radius: 4px;
+}
+.container
+  .nav
+  .nav__right
+  .nav__list
+  .nav__dropdown-active
+  .dropdown-box
+  a:nth-child(1) {
+  border-bottom: 1px solid #f1f1f1;
+}
+.container
+  .nav
+  .nav__right
+  .nav__list
+  .nav__dropdown-active
+  .dropdown-box
+  a:last-child {
+  color: #ff7300;
+}
+.container .nav .nav__right .nav__list li .nav__icon1 {
+  color: #1c1c1f;
+  margin-right: 26px;
+}
+.container .nav .nav__right .nav__list li .nav__icon2 {
+  color: #ff7300;
+}
+/*///////////////////////// Nav section ends here///////////////////////////// */
 
+/* ////////////////////Header section starts here//////////////////////////////////// */
+
+header .head__top .h1 {
+  margin-top: 174px;
+}
+.paragraph {
+  margin-top: 24px;
+}
+.container .head__bottom .span_small {
+  margin-left: 30px;
+}
+.container .head__bottom {
+  margin-top: 10px;
+  position: relative;
+  text-align: center;
+}

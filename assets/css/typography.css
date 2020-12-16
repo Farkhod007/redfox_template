@@ -1,13 +1,80 @@
-.display-1 {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 65px;
-    line-height: 79px;
-    text-align: center;
-    color: #1C1C1F;
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lovers+Quarrel&display=swap");
 
-.text-yellow {
-    color: #FF7300;
+:root {
+  font-family: "intern";
 }
+/* nav section starts  */
+.li a {
+  color: #1c1c1f;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+}
+.h1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 65px;
+  line-height: 79px;
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #1c1c1f;
+}
+/* nav section ends here */
+
+/* head section starts here  */
+.h1 span {
+  color: #ff7300;
+}
+.paragraph {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #8c8c8c;
+}
+.span_small {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-feature-settings: "pnum" on, "lnum" on, "liga" off;
+  color: #ff7300;
+}
+.container .head__bottom::before {
+  content: "";
+  height: 1px;
+  background: #ce1a1a;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -2;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+.container .head__bottom::after {
+  content: "";
+  height: 1px;
+  background: #d42828;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -2;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+/* head section ends here  */
