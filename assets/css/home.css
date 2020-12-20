@@ -213,7 +213,7 @@
     "item5 item5 item5 item6 item6 item6"
     "item7 item7 item8 item8 item9 item9"
     "item10 item10 item11 item11 item12 item12";
-  /* margin-bottom: 51px; */
+  margin-bottom: 51px;
 }
 
 /* Portfolio ends */
@@ -230,8 +230,9 @@
    grid-template-columns: 1fr 1fr 1fr 1fr;
    grid-template-rows: 1fr 1fr;
    grid-gap: 54px 54px;
+   margin-top: 70px;
  }
- .service .item:first-child{
+ .service .item:hover{
   background: #FFFBF5;
  }
  .service .item{
@@ -258,7 +259,9 @@
    display: flex;
    justify-content: space-between;
  }
- 
+ .item .rf-Arrow-4:hover{
+  color: #FF7300;
+ }
  .item .rf-Arrow-4:last-child{
   margin-left: 8px;
  }
