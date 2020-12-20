@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ums5g9');
+  src:  url('fonts/icomoon.eot?ums5g9#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ums5g9') format('truetype'),
+    url('fonts/icomoon.woff?ums5g9') format('woff'),
+    url('fonts/icomoon.svg?ums5g9#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.rf-Arrow-4:before {
+  content: "\e900";
+  color: #d2d2d2;
+}
+.rf-instagram:before {
+  content: "\e901";
+  color: #a6a6a6;
+}
+.rf-print:before {
+  content: "\e902";
+  color: #a6a6a6;
+}
+.rf-desktop:before {
+  content: "\e903";
+  color: #a6a6a6;
+}
+.rf-vector:before {
+  content: "\e904";
+  color: #a6a6a6;
+}
+.rf-pero:before {
+  content: "\e905";
+  color: #a6a6a6;
+}
+.rf-paper:before {
+  content: "\1f5cc";
+  color: #ff7300;
+}
