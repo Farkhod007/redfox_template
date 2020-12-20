@@ -61,6 +61,7 @@
 
 .portfolio-layout {
   display: grid;
+  grid-row-gap: 20px;
   grid-template-columns: 23.2% auto 23.2%;
 }
 
@@ -84,3 +85,10 @@
   }
 }
 /* Portfolio layout ends */
+/* //////////////////////////////////////////////////////////////
+////////////////    Container
+/////////////////////////////////////////////////////////////////*/
+.container-wider {
+  position: relative;
+  top: 173px;
+} 
