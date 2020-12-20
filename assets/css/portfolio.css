@@ -16,30 +16,28 @@
   list-style-type: none;
 }
 
-.main_list_item_active {
+/*//////////////////////////////////////////////////////////
+////////////   Tab nav starts
+//////////////////////////////////////////////////////////*/
+
+.tab-nav {
+  display: block;
+  margin-left: 0px;
+  display: flex;
+  justify-content: left;
+  border-bottom: 3px solid #D2D2D2;
+}
+
+.tab-nav .active {
   border-bottom: 3px solid #FF7300;
   padding-bottom: 9px;
   margin-bottom: -3px;
 }
 
-
-
-.main_list {
-  display: block;
-  margin-left: 0px;
-  text-align: left;
-  font-size: 20px;
-  outline: none;
-  display: flex;
-  justify-content: left;
-  border-bottom: 3px solid #D2D2D2;
-  
-}
-
-.main_list li {
+.tab-nav li {
   margin-right: 40px;
-
 }
+/* Tab nav ends */
 
 .heading_text {
   margin-top: 70px;
