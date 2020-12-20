@@ -79,6 +79,28 @@
   font-size: 16px;
   line-height: 19px;
 }
+.li {
+  color: #1c1c1f;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+}
+.image-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1c1c1f;
+}
+
+/* Type ends */
+
+/*/////////////////////////////////////////////////////////
+ ///////////  Text color starts
+ ////////////////////////////////////////////////////////*/
 
 .helper-3 {
   font-family: "Inter";
@@ -107,7 +129,6 @@
 .text-yellow {
   color: #ff7300;
 }
-
 .text-black-700 {
   color: #1c1c1f;
 }

@@ -6,39 +6,292 @@
   list-style-type: none;
 }
 
-.container {
-  width: 100%;
-  margin: 16px auto;
+.paragraph {
+  margin-top: 24px;
+  margin-bottom: 70px;
 }
 
-@media (min-width: 576px) {
-  .container {
-    width: 544px;
-    margin: 0 auto;
-  }
-}
+/*/////////////////////////////////////////////////////////
+ ///////////  Navbar starts
+ ////////////////////////////////////////////////////////*/
 
-@media (min-width: 816px) {
-  .container {
-    width: 768px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    width: 1146px;
-  }
-}
-
-@media (min-width: 1500px) {
-  .container {
-    width: 1404px;
-  }
-}
-
-/* //////Nav section starts here */
 .nav {
   display: flex;
   justify-content: space-between;
+  padding: 30px 0;
+}
+.nav .nav__right {
+  display: flex;
+  align-items: center;
+}
+.nav .nav__right button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+.nav .nav__list {
+  display: flex;
+  margin-right: 70px;
+}
+.nav .nav__list > li {
+  margin-right: 40px;
+}
+.nav .nav__list > li:last-child {
+  margin-right: 0;
+}
+.nav .nav__right button {
+  margin-right: 28px;
+}
+.nav .nav__right button:last-child {
+  margin-right: 0;
 }
 
+/* Navbar ends    */
+
+/*/////////////////////////////////////////////////////////
+ ///////////  Header starts
+ ////////////////////////////////////////////////////////*/
+
+.header {
+  padding-top: 120px;
+  padding-bottom: 35px;
+}
+.header h1 {
+  margin-bottom: 24px;
+}
+
+/* Header ends */
+
+/*/////////////////////////////////////////////////////////
+ ///////////  Customers starts
+ ////////////////////////////////////////////////////////*/
+.brands {
+  padding-top: 35px;
+  padding-bottom: 90px;
+}
+.brands h2 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.brands .logos {
+  margin-top: 50px;
+}
+
+/* Customers ends */
+
+/*/////////////////////////////////////////////////////////
+ ///////////  Dropdown starts
+ ////////////////////////////////////////////////////////*/
+
+.dropdown {
+  position: relative;
+}
+.dropdown .pop-up {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 8px);
+  display: none;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.dropdown .pop-up.active {
+  display: block;
+}
+.dropdown .pop-up li {
+  padding: 5px 14px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.dropdown .pop-up li:last-child {
+  border-bottom: none;
+}
+.dropdown .pop-up hr {
+  border: 0.5px solid #f1f1f1;
+  border-radius: 5px;
+  margin: 0 4px;
+}
+
+/* Dropdown ends */
+
+/*/////////////////////////////////////////////////////////
+ ///////////  Portfolio Card starts
+ ////////////////////////////////////////////////////////*/
+.items{
+  margin-top: 70px;
+}
+
+.portfolio-card .image {
+  padding-top: 78%;
+  position: relative;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+}
+
+.portfolio-card img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.portfolio-card h2 {
+  margin-top: 10px;
+}
+
+/* Portfolio ends */
+
+/*/////////////////////////////////////////////////////////
+ ///////////  Portfolio starts
+ ////////////////////////////////////////////////////////*/
+
+.portfolio .item-1 {
+  grid-area: item1;
+  height: 100%;
+  display: grid;
+  grid-row-gap: 16px;
+}
+
+.portfolio .item-1 .image {
+  padding-top: calc(78% - 16px);
+}
+.portfolio .item-2 {
+  grid-area: item2;
+}
+.portfolio .item-3 {
+  grid-area: item3;
+}
+.portfolio .item-4 {
+  grid-area: item4;
+}
+.portfolio .item-5 {
+  grid-area: item5;
+}
+.portfolio .item-6 {
+  grid-area: item6;
+}
+.portfolio .item-7 {
+  grid-area: item7;
+}
+.portfolio .item-8 {
+  grid-area: item8;
+}
+.portfolio .item-9 {
+  grid-area: item9;
+}
+.portfolio .item-10 {
+  grid-area: item10;
+}
+.portfolio .item-11 {
+  grid-area: item11;
+}
+.portfolio .item-12 {
+  grid-area: item12;
+}
+
+.portfolio .items {
+  display: grid;
+  grid-gap: 51px 18px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "item1 item1 item2 item2 item2 item2"
+    "item3 item3 item3 item4 item4 item4"
+    "item5 item5 item5 item6 item6 item6"
+    "item7 item7 item8 item8 item9 item9"
+    "item10 item10 item11 item11 item12 item12";
+  /* margin-bottom: 51px; */
+}
+
+/* Portfolio ends */
+
+/*/////////////////////////////////////////////////////////
+ ///////////  Services starts
+ ////////////////////////////////////////////////////////*/
+
+ .services{
+   margin-top: 182px;
+ }
+ .service{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   grid-gap: 54px 54px;
+ }
+ .service .item:first-child{
+  background: #FFFBF5;
+ }
+ .service .item{
+  background: #FCFCFC;
+  padding: 20px 24px 16px 20px;
+ }
+ .service .item .icons{
+  font-size: 37px;
+  color: #A6A6A6;
+ }
+ .service .item h4{
+   display: inline;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #A6A6A6;
+ }
+ .service .item h3{
+   margin: 32px 0 6px 0;
+ }
+ .item-text{
+   display: flex;
+   justify-content: space-between;
+ }
+ 
+ .item .rf-Arrow-4:last-child{
+  margin-left: 8px;
+ }
+
+ /* Services ends */
+
+ /*/////////////////////////////////////////////////////////
+ /////////// Team starts
+ ////////////////////////////////////////////////////////*/
+ .team{
+   margin-top: 180px;
+ }
+ .team-members{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-gap: 54px 54px;
+   margin-top: 70px;
+ }
+ .team-members .specialist{
+   display: flex;
+ }
+ .specialist .text{
+   margin: 14px 0 0 20px;
+ }
+ .specialist .text h3{
+   margin-bottom: 5px;
+ }
+ /* tem ends  */
+
+  /*/////////////////////////////////////////////////////////
+ /////////// Team starts
+ ////////////////////////////////////////////////////////*/
+ .customers{
+   margin-top: 180px;
+ }
