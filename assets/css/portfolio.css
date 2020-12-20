@@ -1,9 +1,88 @@
-.text1{
-    font-size: 48PX;
-    color: 1C1C1F;
-    font-family: 'Inter', sans-serif;
-    position: absolute;
-    left: 25%;
-    top: 117px;
-    width: 600px;
+.text1 {
+  font-size: 48PX;
+  color: C1C1F;
+  font-family: 'Inter', sans-serif;
+  position: absolute;
+  left: 25%;
+  top: 117px;
+  width: 600px;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.main_list_item_active {
+  border-bottom: 3px solid #FF7300;
+  padding-bottom: 9px;
+  margin-bottom: -3px;
+}
+
+
+
+.main_list {
+  display: block;
+  margin-left: 0px;
+  text-align: left;
+  font-size: 20px;
+  outline: none;
+  display: flex;
+  justify-content: left;
+  border-bottom: 3px solid #D2D2D2;
+  
+}
+
+.main_list li {
+  margin-right: 40px;
+
+}
+
+.heading_text {
+  margin-top: 70px;
+}
+
+.heading_text h2 {
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+
+/*//////////////////////////////////////////////////////////
+////////////   Portfolio layout starts
+//////////////////////////////////////////////////////////*/
+
+.portfolio-layout {
+  display: grid;
+  grid-template-columns: 23.2% auto 23.2%;
+}
+
+.item-1 {
+  grid-column: 1 / span;
+}
+
+.item-2 {
+  grid-column: 2 / span 1;
+}
+
+.item-3 {
+  grid-column: 2 / span 1;
+}
+
+@media (max-width: 1200px) {
+  .portfolio-layout {
+    display: grid;
+    grid-template-columns: 16.6% auto 16.6%;
+
+  }
+}
+/* Portfolio layout ends */
