@@ -28,6 +28,7 @@
     }
   }
   
-     .container-wider {
-      width: 5p;
-     }
+.container-wider {
+  width: 100%;
+  margin: 16px auto;
+}

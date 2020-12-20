@@ -1,3 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lovers+Quarrel&display=swap");
+
+:root {
+  font-family: "intern";
+}
+
+/*/////////////////////////////////////////////////////////
+ ///////////  Type starts
+ ////////////////////////////////////////////////////////*/
+
 .display-1 {
     font-family: Inter;
     font-style: normal;
@@ -6,7 +16,107 @@
     line-height: 79px;
     color: #1C1C1F;
 }
+.li {
+  color: #1c1c1f;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+}
+.image-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1c1c1f;
+}
+
+/* Type ends */
+
+/*/////////////////////////////////////////////////////////
+ ///////////  Text color starts
+ ////////////////////////////////////////////////////////*/
 
 .text-yellow {
-    color: #FF7300;
+  color: #ff7300;
 }
+.text-black-700 {
+  color: #1c1c1f;
+}
+
+/* Text color ends */
+
+/*/////////////////////////////////////////////////////////
+ ///////////  Text decoration starts
+ ////////////////////////////////////////////////////////*/
+
+.lined {
+  position: relative;
+}
+
+.lined::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #ebebeb;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: -1;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.lined .bg {
+    background-color: white;
+    padding: 0 16px;
+}
+
+/* Text decoration ends */
+
+/*/////////////////////////////////////////////////////////
+ ///////////  Services starts
+ ////////////////////////////////////////////////////////*/
+
+.service .item h3{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #1C1C1F;
+   }
+   .service .item p {
+    font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #1C1C1F;
+   }
+/* Services ends  */
+
+/*/////////////////////////////////////////////////////////
+ ///////////  Team starts
+ ////////////////////////////////////////////////////////*/
+   .display-2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1C1C1F;
+   }
+   .display-3{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A6A6A6;
+   }

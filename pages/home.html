@@ -6,42 +6,367 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Document</title>
 	<link rel="stylesheet" href="../assets/css/typography.css" />
-	<link rel="stylesheet" href="../assets/css/home.css">
-	<link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="../assets/css/grid.css">
+	<link rel="stylesheet" href="../assets/css/home.css" />
+	<link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet" />
+	<link rel="stylesheet" href="../assets/fonts/icomoon-v1.0/style.css">
 </head>
 
 <body>
+
+	<!-- Navbar starts -->
 	<nav class="container">
 		<div class="nav">
-			<img src="../images/Logo (2).svg" alt="SVG">
+			<img src="../assets/images/Logo (2).svg" alt="SVG" />
 
+<<<<<<< HEAD
 			<div>							
+=======
+			<div class="nav__right">
+>>>>>>> d4d1f7f08355c71620fb61d9f69b583542ac6cf7
 				<ul class="nav__list">
-					<li class="nav__list__item"><a href="#">Portfolio</a></li>
-					<li class="nav__list__item"><a href="#">Agency</a></li>
-					<li class="nav__list__item">
-						<a href="#">Rus</a>
-						<div class="nav__dropdown nav__dropdown-active">
-							<a href="#">Rus</a>
-							<a href="#">Uzb</a>
-						</div>
+					<li><a class="li" href="#">Portfolio</a></li>
+					<li><a class="li" href="#">Agency</a></li>
+					<li class="dropdown">
+						<a class="li" href="#">Rus</a>
+						<ul class="pop-up active">
+							<li>
+								<a class="li" href="#">Rus</a>
+							</li>
+							<hr />
+							<li>
+								<a class="li text-yellow" href="#">Uzb</a>
+							</li>
+						</ul>
 					</li>
 				</ul>
-				<i class="fas fa-bars"></i>
-				<i class="fas fa-search"></i>
+				<button><i class="fas fa-bars text-black-700"></i></button>
+				<button><i class="fas fa-search text-yellow"></i></button>
 			</div>
-
 		</div>
 	</nav>
-	<header>
-		<div class="head_top">
-			<h1>Bizga ishonch bildirgan
-				kompaniyalar <span>250+</span></h1>
-			<p>Biznesda ham hayotda ham eng muhim omil bu ishonchdir.Bizga ishonch bildirgan kompaniyalar qatorida sizni
-				ham ko'rishdan mamnunmiz.</p>
-			<span>ENTERPRISE 30+</span>
-		</div>
+	<!-- Navbar ends -->
+
+
+	<!-- Header starts -->
+	<header class="container header">
+		<h1 class="display-1">
+			Bizga ishonch bildirgan <br />
+			kompaniyalar <span class="text-yellow">250+</span>
+		</h1>
+		<p class="paragraph">
+			Biznesda ham hayotda ham eng muhim omil bu ishonchdir.<br />Bizga
+			ishonch bildirgan kompaniyalar qatorida sizni ham ko'rishdan<br />
+			mamnunmiz.
+		</p>
 	</header>
+	<!-- Header ends -->
+
+	<!-- Brands starts -->
+	<div class="brands">
+		<div class="enterprise">
+			<div class="container">
+				<h2 class="caption lined"><span class="bg">ENTERPRISE 30+</span></h2>
+			</div>
+			<div class="logos"></div>
+		</div>
+		<div class="business">
+			<div class="container">
+				<h2 class="caption lined"><span class="bg">Business 100+</span></h2>
+			</div>
+			<div class="logos"></div>
+		</div>
+	</div>
+	<!-- Brands ends -->
+
+	<!-- Portfolio starts -->
+	<div class="container">
+		<div class="portfolio">
+			<h1 class="display-1">Muvaffaqiyatli topshirilgan ishlarimiz soni <span class="text-yellow">1250+</span>
+			</h1>
+			<p class="paragraph">Biz o'z ishimizni yaxshi ko'rib bajaramiz. Siz yoki kompaniyangiz uchun <br>
+				topshirsangiz,
+				biz uni bajarishdan xursand bo'lamiz. </p>
+			<div>
+				<h2 class="caption lined"><span class="bg">PORTFOLIO</span></h2>
+			</div>
+			<div class="items">
+				<div class="item-1">
+					<div class="portfolio-card">
+						<div class="image">
+							<img src="../assets/images/portfolios image/portfolios image top/najot talim.jpg" alt="JPG">
+						</div>
+						<h2 class="image-text">Najot ta’lim o‘quv markazi</h2>
+					</div>
+					<div class="portfolio-card">
+						<div class="image">
+							<img src="../assets/images/portfolios image/portfolios image top/derzi.jpg" alt="JPG">
+						</div>
+						<h2 class="image-text">Derzi kiyim fabrikasi</h2>
+					</div>
+				</div>
+				<div class="portfolio-card item-2">
+					<div class="image">
+						<img src="../assets/images/portfolios image/portfolios image top/nurshfon.jpg" alt="">
+					</div>
+					<h2 class="image-text">Nurafshon smart city</h2>
+				</div>
+				<div class="portfolio-card item-3">
+					<div class="image">
+						<img src="../assets/images/portfolios image/portfolios image center/Eden.jpg" alt="Eden">
+					</div>
+					<h2 class="image-text">Eden saryog‘lari qadoq dizayn</h2>
+				</div>
+				<div class="portfolio-card item-4">
+					<div class="image">
+						<img src="../assets/images/portfolios image/portfolios image center/Mindo.jpg" alt="Mindo">
+					</div>
+					<h2 class="image-text">Mindo mahsuloti uchun qadoq dizayn</h2>
+				</div>
+				<div class="portfolio-card item-5">
+					<div class="image">
+						<img src="../assets/images/portfolios image/portfolios image center/Pop corn.jpg"
+							alt="Supercorn">
+					</div>
+					<h2 class="image-text">Supercorn qadoq dizayni</h2>
+				</div>
+				<div class="portfolio-card item-6">
+					<div class="image">
+						<img src="../assets/images/portfolios image/portfolios image center/Rome Pizza.jpg" alt="Roma">
+					</div>
+					<h2 class="image-text">Roma pizza</h2>
+				</div>
+				<div class="portfolio-card item-7">
+					<div class="image">
+						<img src="../assets/images/portfolios image/portfolios image bottom/Vast travel.jpg"
+							alt="Vast travel">
+					</div>
+					<h2 class="image-text">Vast travel sayohat agentligi </h2>
+				</div>
+				<div class="portfolio-card item-8">
+					<div class="image">
+						<img src="../assets/images/portfolios image/portfolios image bottom/Giyim.jpg" alt="Giyim">
+					</div>
+					<h2 class="image-text">Giym internet magazin</h2>
+				</div>
+				<div class="portfolio-card item-9">
+					<div class="image">
+						<img src="../assets/images/portfolios image/portfolios image bottom/Novaya volna.jpg"
+							alt="Novaya volna">
+					</div>
+					<h2 class="image-text">Nurafshon smart city</h2>
+				</div>
+				<div class="portfolio-card item-10">
+					<div class="image">
+						<img src="../assets/images/portfolios image/portfolios image bottom/Venox.jpg" alt="Venox">
+					</div>
+					<h2 class="image-text">Venox</h2>
+				</div>
+				<div class="portfolio-card item-11">
+					<div class="image">
+						<img src="../assets/images/portfolios image/portfolios image bottom/Social media.jpg"
+							alt="Social media">
+					</div>
+					<h2 class="image-text">Boxcom</h2>
+				</div>
+				<div class="portfolio-card item-12">
+					<div class="image">
+						<img src="../assets/images/portfolios image/portfolios image bottom/nurafshon smart city.jpg"
+							alt="Nurafshon city">
+					</div>
+					<h2 class="image-text">Nurafshon smart city</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Portfolio ends -->
+
+	<!-- Services starts  -->
+	<div class="container">
+		<div class="services">
+			<h1 class="display-1">Mahalliy bozordagi<br> tajribamiz <span class="text-yellow">4 yil</span></h1>
+			<p class="paragraph">RedFox dizayn studiyasi bir vaqtda ko‘plab kompaniyalar bilan<br> ishlaydigan tajribali
+				katta jamoadir. Mijozlarimiz qatorida sizni ham<br> ko’rishdan mamnunmiz.</p>
+			<h2 class="caption lined"><span class="bg">XIZMATLARIMIZ</span></h2>
+			<div class="service">
+				<div class="item">
+					<i class="rf-paper icons"></i>
+					<h3>Naming</h3>
+					<div class="item-text">
+						<p>nom topish</p>
+						<i class="rf-Arrow-4 arrow"></i>
+					</div>
+				</div>
+				<div class="item">
+					<i class="rf-pero icons"></i>
+					<h3>Logo & Branding</h3>
+					<div class="item-text">
+						<p>savdo belgisini yaratish</p>
+						<i class="rf-Arrow-4"></i>
+					</div>
+				</div>
+				<div class="item">
+					<i class="rf-vector icons"></i>
+					<h3>Graphic design</h3>
+					<div class="item-text">
+						<p>Barcha turdagi xizmatlar</p>
+						<i class="rf-Arrow-4"></i>
+					</div>
+				</div>
+				<div class="item">
+					<i class="rf-desktop icons"></i>
+					<h3>Web & UX/UI</h3>
+					<div class="item-text">
+						<p>dizaynini tayyorlash</p>
+						<i class="rf-Arrow-4"></i>
+					</div>
+				</div>
+				<div class="item">
+					<i class="rf-Package icons"></i>
+					<h3>Packaging</h3>
+					<div class="item-text">
+						<p>dizaynini tayyorlash</p>
+						<i class="rf-Arrow-4"></i>
+					</div>
+				</div>
+				<div class="item">
+					<i class="rf-print icons"></i>
+					<h3>Poligrafik</h3>
+					<div class="item-text">
+						<p>dizaynini tayyorlash</p>
+						<i class="rf-Arrow-4"></i>
+					</div>
+				</div>
+				<div class="item">
+					<i class="rf-instagram icons"></i>
+					<h3>Veb dasturlash</h3>
+					<div class="item-text">
+						<p>Frontend & Backend</p>
+						<i class="rf-Arrow-4"></i>
+					</div>
+				</div>
+				<div class="item">
+					<h4>Yana shu kabi
+						ko‘plab xizmatlar mavjud</h4>
+					<i class="rf-Arrow-4 "></i>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- Services ends  -->
+
+	<!-- Team starts  -->
+	<div class="container">
+		<div class="team">
+			<h1 class="display-1">Jamoamizda ekspert va
+				mutaxassislar <span class="text-yellow">40+</span></h1>
+			<p class="paragraph">RedFox katta jamoadan tashkil topgan dizayn studiya. Shuningdek,<br> jamoamizda Frilansus.com baholash tizimida Top 10 kuchli dizaynerlar<br> qatoriga kiruvchi 5 va 4 yulduzli dizaynerlar ham bor.</p>
+			<h2 class="caption lined"><span class="bg">Jamoa a‘zolari</span></h2>
+			<div class="team-members">
+				<div class="specialist">
+					<div class="img">
+						<img src="../assets/images/team image/Po'latov Mavlonbek.jpg" alt="JPG">
+					</div>
+					<div class="text">
+						<h3 class="display-2">Polatov Mavlonbek</h3>
+					<p class="display-3">UX/UI dizayner · Tajriba: 4 yil</p>
+					</div>
+				</div>
+				<div class="specialist">
+					<div class="img">
+						<img src="../assets/images/team image/Azam muhammadiyev.jpg" alt="JPG">
+					</div>
+					<div class="text">
+						<h3 class="display-2">Azam Muhammadiyev</h3>
+					<p class="display-3">Grafik dizayner · Tajriba: 10 yil</p>
+					</div>
+				</div>
+				<div class="specialist">
+					<div class="img">
+						<img src="../assets/images/team image/Rahmatullo Jabborov.jpg" alt="JPG">
+					</div>
+				<div class="text">
+					<h3 class="display-2">Rahmatullo Jabborov</h3>
+					<p class="display-3">UX/UI dizayner · Tajriba: 4 yil</p>
+				</div>
+				</div>
+				<div class="specialist">
+					<div class="img">
+						<img src="../assets/images/team image/Rahimjon Gaziyev.jpg" alt="JPG">
+					</div>
+					<div class="text">
+						<h3 class="display-2">Rahimjon Gaziyev</h3>
+					<p class="display-3">UX/UI dizayner · Tajriba: 4 yil</p>
+					</div>
+				</div>
+				<div class="specialist">
+					<div class="img">
+						<img src="../assets/images/team image/Nurmatov Odiljon.jpg" alt="JPG">
+					</div>
+					<div class="text">
+						<h3 class="display-2">Nurmatov Odiljon</h3>
+					<p class="display-3">UX/UI dizayner · Tajriba: 4 yil</p>
+					</div>
+				</div>
+				<div class="specialist">
+				<div class="img">
+					<img src="../assets/images/team image/Bahtiyorjon Gaziyev.jpg" alt="JPG">
+				</div>
+			<div class="text">
+				<h3 class="display-2">Baxtiyorjon Gaziyev</h3>
+				<p class="display-3">UX/UI dizayner · Tajriba: 4 yil</p>
+			</div>
+				</div>
+				<div class="specialist">
+					<div class="img">
+						<img src="../assets/images/team image/Sarvarbek Abdupattoyev.jpg" alt="JPG">
+					</div>
+					<div class="text">
+						<h3 class="display-2">Sarvarbek Abdupattoyev</h3>
+						<p class="display-3">UX/UI dizayner · Tajriba: 4 yil</p>
+					</div>
+				</div>
+				<div class="specialist">
+					<div class="img">
+						<img src="../assets/images/team image/Shokhruh Rakhmatov.jpg" alt="JPG">
+					</div>
+				<div class="text">
+					<h3 class="display-2">Shokhrukh Rakhmatov</h3>
+					<p class="display-3">UX/UI dizayner · Tajriba: 4 yil</p>
+				</div>
+				</div>
+				<div class="specialist">
+					<div class="img">
+						<img src="../assets/images/team image/Utkir tojiboyev.jpg" alt="JPG">
+					</div>
+				<div class="text">
+					<h3 class="display-2">Utkir Tojiboyev</h3>
+					<p class="display-3">UX/UI dizayner · Tajriba: 4 yil</p>
+				</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<!-- Customers starts -->
+	<div class="container">
+		<div class="customers">
+			<h2 class="display-1">Mijozlarni qo‘llab<br> 
+				quvvatlash, support <span class="text-yellow">24/7</span></h2>
+			<p class="paragraph">RedFox dizayn studiyasi bir vaqtda ko’plab kompaniyalar bilanz<br> ishlaydigan tajribali katta jamoadir. Mijozlarimiz qatorida sizni<br> ham ko’rishdan mamnunmiz.</p>
+			<h2 class="caption lined"><span class="bg">Mijozlar fikri</span></h2>
+			<div class="feedback">
+				<div class="feedback-item">
+					<img src="../assets/images/customers/Bahodir akbarov venox.jpg" alt="JPG">
+					<h3 class="founders">Bahodir Akbarov</h3>
+					<span class="company">Venox kompaniyasi asoschisi</span>
+					<p class="comment">Bolalar baraka topila qo‘l ko‘zilar dard ko‘rmasin, bosib chiqarishdan chiqqanidan keyin ko‘rib ko‘z  to‘ymayabdi juda chiroyli chiqdi mosholloh,  gapyo‘q hammanglarga rahmat katta</p>
+					<img src="../assets/images/customers/Venox.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 
 </html>
