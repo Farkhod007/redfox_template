@@ -96,3 +96,45 @@
 }
 
 /* Text decoration ends */
+
+/*/////////////////////////////////////////////////////////
+ ///////////  Services starts
+ ////////////////////////////////////////////////////////*/
+
+.service .item h3{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #1C1C1F;
+   }
+   .service .item p {
+    font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #1C1C1F;
+   }
+/* Services ends  */
+
+/*/////////////////////////////////////////////////////////
+ ///////////  Team starts
+ ////////////////////////////////////////////////////////*/
+   .display-2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1C1C1F;
+   }
+   .display-3{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A6A6A6;
+   }
