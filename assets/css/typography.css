@@ -10,29 +10,74 @@
 
 .display-1 {
   font-family: Inter;
+  font-style: normal;
   font-weight: 800;
   font-size: 65px;
   line-height: 79px;
-  text-align: center;
-  color: #1c1c1f;
+  color: #1C1C1F;
 }
-.paragraph {
+
+.display-2 {
   font-family: Inter;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
-  text-align: center;
-  color: #8c8c8c;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  color: #1C1C1F;
 }
+
+.display-3 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  color: #1C1C1F;
+}
+
+.display-4 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31px;
+  color: #1C1C1F;
+}
+
+.display-5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1C1C1F;
+}
+
+.display-6 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #1C1C1F;
+}
+
+.body {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1C1C1F;
+}
+
+.li,
 .caption {
-  text-align: center;
+  color: #1c1c1f;
   font-family: "Inter";
   font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: #ff7300;
+  font-size: 16px;
+  line-height: 19px;
 }
 .li {
   color: #1c1c1f;
@@ -49,6 +94,30 @@
   font-size: 16px;
   line-height: 19px;
   color: #1c1c1f;
+}
+
+/* Type ends */
+
+/*/////////////////////////////////////////////////////////
+ ///////////  Text color starts
+ ////////////////////////////////////////////////////////*/
+
+.helper-3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #A6A6A6;
+}
+
+.helper-2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #1C1C1F;
 }
 
 /* Type ends */
@@ -91,50 +160,8 @@
 }
 
 .lined .bg {
-    background-color: white;
-    padding: 0 16px;
+  background-color: white;
+  padding: 0 16px;
 }
 
 /* Text decoration ends */
-
-/*/////////////////////////////////////////////////////////
- ///////////  Services starts
- ////////////////////////////////////////////////////////*/
-
-.service .item h3{
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
-    color: #1C1C1F;
-   }
-   .service .item p {
-    font-family: "Inter";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 16px;
-  color: #1C1C1F;
-   }
-/* Services ends  */
-
-/*/////////////////////////////////////////////////////////
- ///////////  Team starts
- ////////////////////////////////////////////////////////*/
-   .display-2{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    color: #1C1C1F;
-   }
-   .display-3{
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    color: #A6A6A6;
-   }
