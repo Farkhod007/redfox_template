@@ -9,7 +9,7 @@
  ////////////////////////////////////////////////////////*/
 
 .display-1 {
-  font-family: Inter;
+  font-family: "Inter";
   font-style: normal;
   font-weight: 800;
   font-size: 65px;
@@ -18,7 +18,7 @@
 }
 
 .display-2 {
-  font-family: Inter;
+  font-family: "Inter";
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -27,7 +27,7 @@
 }
 
 .display-3 {
-  font-family: Inter;
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
@@ -36,7 +36,7 @@
 }
 
 .display-4 {
-  font-family: Inter;
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 26px;
@@ -45,7 +45,7 @@
 }
 
 .display-5 {
-  font-family: Inter;
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -54,32 +54,66 @@
 }
 
 .display-6 {
-  font-family: Inter;
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
   line-height: 27px;
   color: #1C1C1F;
 }
+.display-7{
+  font-family: "Inter";
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
 
+}
 .heading-3 {
-  font-family: Inter;
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
   color: #1C1C1F;
 }
+.heading-4{
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1C1C1F;
+}
 
 .body {
   font-family: 'Inter';
   font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 14px;
   line-height: 30px;
   color: #1C1C1F;
 }
-
+.body-01 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  color: #1C1C1F;
+}
+.body-02-2 {
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FF7300;
+}
 .li,
 .caption {
   color: #1c1c1f;
@@ -99,7 +133,7 @@
 }
 
 .helper-2 {
-  font-family: Inter;
+  font-family: "Inter";
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -108,7 +142,42 @@
 }
 
 /* Type ends */
+/*/////////////////////////////////////////////////////////
+ ///////////  Navbar starts
+ ////////////////////////////////////////////////////////*/
 
+ .nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+.nav .nav__right {
+  display: flex;
+  align-items: center;
+}
+.nav .nav__right button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+.nav .nav__list {
+  display: flex;
+  margin-right: 70px;
+}
+.nav .nav__list > li {
+  margin-right: 40px;
+}
+.nav .nav__list > li:last-child {
+  margin-right: 0;
+}
+.nav .nav__right button {
+  margin-right: 28px;
+}
+.nav .nav__right button:last-child {
+  margin-right: 0;
+}
+
+/* Navbar ends    */
 /*/////////////////////////////////////////////////////////
  ///////////  Text color starts
  ////////////////////////////////////////////////////////*/
@@ -123,7 +192,7 @@
 }
 
 .helper-2 {
-  font-family: Inter;
+  font-family: "Inter";
   font-style: normal;
   font-weight: normal;
   font-size: 13px;

@@ -1,6 +1,6 @@
 .text1 {
   font-size: 48PX;
-  color: C1C1F;
+  color: #C1C1F1;
   font-family: 'Inter', sans-serif;
   position: absolute;
   left: 25%;
@@ -15,7 +15,45 @@
   text-decoration: none;
   list-style-type: none;
 }
-
+/* /////////////////////////////////////////////////////////
+///////////////////// menu starts
+/////////////////////////////////////////////////////////*/
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+.nav img{
+  margin-left: 225px;
+}
+.nav .nav__right {
+  display: flex;
+  align-items: center;
+}
+.nav .nav__right button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+.nav .nav__list {
+  display: flex;
+  margin-right: 70px;
+}
+.nav .nav__list > li {
+  margin-right: 40px;
+}
+.nav .nav__list > li:last-child {
+  margin-right: 0;
+}
+.nav .nav__right button {
+  margin-right: 28px;
+}
+.nav .nav__right button:last-child {
+  margin-right: 0;
+}
+/* /////////////////////////////////////////////////////////
+///////////////////// menu ends
+/////////////////////////////////////////////////////////*/
 /*//////////////////////////////////////////////////////////
 ////////////   Tab nav starts
 //////////////////////////////////////////////////////////*/
@@ -26,17 +64,19 @@
   display: flex;
   justify-content: left;
   border-bottom: 3px solid #D2D2D2;
+  margin-top: 70px;
 }
 
 .tab-nav .active {
   border-bottom: 3px solid #FF7300;
-  padding-bottom: 9px;
+  padding-bottom: 8px;
   margin-bottom: -3px;
 }
 
 .tab-nav li {
   margin-right: 40px;
 }
+
 /* Tab nav ends */
 
 .heading_text {
@@ -44,7 +84,7 @@
 }
 
 .heading_text h2 {
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 30px;
   font-style: normal;
   font-weight: 600;
@@ -61,12 +101,14 @@
 
 .portfolio-layout {
   display: grid;
-  grid-row-gap: 20px;
+  grid-row-gap: 30px;
   grid-template-columns: 23.2% auto 23.2%;
+
 }
 
 .column-1 {
   grid-column: 1 / span;
+
 }
 
 .column-2 {
@@ -75,6 +117,13 @@
 
 .column-3 {
   grid-column: 2 / span 1;
+  text-align: left;
+  margin-left: 0px;
+  margin-top: 70px;
+}
+
+.display-3 {
+  margin-bottom: 30px;
 }
 
 @media (max-width: 1200px) {
@@ -84,11 +133,180 @@
 
   }
 }
+.portfolio-layout .column-2 h1{
+  margin-top: 70px;
+}
 /* Portfolio layout ends */
 /* //////////////////////////////////////////////////////////////
 ////////////////    Container
 /////////////////////////////////////////////////////////////////*/
-.container-wider {
-  position: relative;
-  top: 173px;
-} 
+
+
+/* ////////////////////////////////////////////////////////////////
+////////////////////// header-image starts
+///////////////////////////////////////////////////////////////////*/
+.header-image {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 18px;
+  margin: 75px 0 70px;
+}
+
+.header-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.image-1 {
+  grid-area: 1 / span 3 / 1 / span 3;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////
+//////////////////////////final-state
+///////////////////////////////////////////////////////////////////////////////*/
+.final-state {
+  margin-top: 60px;
+
+
+}
+
+.heading-3 {}
+
+.final-state h4 {
+  width: 832px;
+
+  top: 10px;
+  padding: 0;
+}
+
+/* /////////////////////////////////////////////////
+//////////////////////// group starts
+////////////////////////////////////////////////////*/
+.group {
+  
+  margin-top: 180px;
+}
+
+.comands {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 97px 117px 231px;
+  padding: 0px;
+  border-bottom: 1px solid #D2D2D2;
+  padding-bottom: 74px;
+}
+
+.commands div {
+
+  text-align: center;
+}
+
+.designer {
+  line-height: 38px;
+}
+
+.body-02-2 {
+  line-height: 44px;
+}
+
+.column-2>body {
+  line-height: 23px;
+
+}
+
+.data {
+  padding-left: 10px;
+}
+
+.comands .heading-4 {
+  margin-bottom: 16px;
+}
+
+
+
+.caption {
+  padding: 5px 9px;
+  background-color: #F1F1F1;
+  margin-top: 15px;
+  margin-left: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.hash-tag{
+  margin-top: 70px;
+  line-height: 15px;
+  
+}
+.hash-tag .heading-4 {
+  display: inline;
+  color: #D2D2D2;
+}
+.hash-tag a{
+  display: inline;
+  display: inline-block;
+}
+.hash-tag h6 {
+  display: inline-flex;
+  font-size: 16px;
+  color: #FF7A0D;
+
+}
+/* ////////////////////////////////////////////////
+//////////////////  project starts
+////////////////////////////////////////////////*/
+
+.project{
+  margin-top: 70px;
+  background-color: #F9F9F9;
+  border-top: 1px solid white;
+  height: 659px;
+}
+
+.project .container{
+margin-top: 149px;
+}
+.project .container h3{
+margin-left: 18px;
+}
+.project .container div{
+  width: 358px;
+  height: 277px;
+  border: 1px solid white;
+  display: inline-flex;
+  margin-left: 18px;
+  margin-top: 18px;
+}
+.project-image-1{
+  background-color: white;
+}
+.project-image-1 img{
+margin: 110px 0px 105px 151px;
+}
+.project-image-2{
+  background-color:  #01468D;;
+}
+.project-image-2 img{
+  margin: 110px 0px 105px 151px;
+  }
+.project-image-3{
+  background-color: white;
+}
+.project-image-3 img{
+  margin: 110px 0px 105px 151px;
+  }
+.project .container h6{
+  display: inline-block;
+  margin-top: 303px;
+  position: absolute;
+  margin-left: 18px;
+  margin-bottom: 180px;
+}
+.project .container h6{
+  color: black;
+}
