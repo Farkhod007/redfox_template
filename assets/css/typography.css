@@ -183,21 +183,21 @@
   text-transform: uppercase;
   color: #ff7300;
 }
-.body-2-00{
+.body-2-00 {
   font-family: "Inter";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  color: #3B4254;
+  color: #3b4254;
 }
-.body-2-01{
+.body-2-01 {
   font-family: "Inter";
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: 22px;
-  color: #1C1C1F;
+  color: #1c1c1f;
 }
 
 .body-3 {
@@ -289,7 +289,7 @@
   font-weight: normal;
   font-size: 13px;
   line-height: 18px;
-  color: #D2D2D2;
+  color: #d2d2d2;
 }
 .body-8-01 {
   font-family: "Inter";
@@ -384,8 +384,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 172px;
-  color: #FFA959;
-
+  color: #ffa959;
 }
 
 /* /////////////////////////////////////// ///////////////////////
