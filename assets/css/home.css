@@ -6,10 +6,49 @@
   list-style-type: none;
 }
 
-.paragraph {
-  margin-top: 24px;
-  margin-bottom: 70px;
+.display-1 {
+  text-align: center;
+  margin: 0 auto;
 }
+.body-01 {
+  width: 100%;
+  max-width: 700px;
+  margin: 24px auto 70px;
+  text-align: center;
+}
+header h1 {
+  width: 100%;
+  max-width: 758px;
+}
+.portfolio h1 {
+  width: 100%;
+  max-width: 883px;
+}
+.services h1 {
+  width: 100%;
+  max-width: 624px;
+}
+.team h1 {
+  width: 100%;
+  max-width: 764px;
+}
+.customers h1 {
+  width: 100%;
+  max-width: 812px;
+}
+.customers p {
+  width: 100%;
+  max-width: 588px;
+}
+.body-2{
+  text-align: center;
+}
+.body-2-00{
+  width: 100%;
+  max-width: 290px;
+  margin-top: 15px;
+}
+
 
 /*/////////////////////////////////////////////////////////
  ///////////  Navbar starts
@@ -45,8 +84,12 @@
 .nav .nav__right button:last-child {
   margin-right: 0;
 }
+.nav__list .body-0101:hover{
+  border-bottom: 3px solid #ff7300;
+}
 
 /* Navbar ends    */
+
 
 /*/////////////////////////////////////////////////////////
  ///////////  Header starts
@@ -63,7 +106,7 @@
 /* Header ends */
 
 /*/////////////////////////////////////////////////////////
- ///////////  Customers starts
+ ///////////  Brands starts
  ////////////////////////////////////////////////////////*/
 .brands {
   padding-top: 35px;
@@ -77,8 +120,18 @@
 .brands .logos {
   margin-top: 50px;
 }
+.logos{
+  margin-bottom: 124px;
+}
+.logos .item-01{
+  margin-bottom: 62px;
+}
+.logos i{
+  font-size: 26px;
+  margin: 0 18px;
+}
 
-/* Customers ends */
+/* Brands ends */
 
 /*/////////////////////////////////////////////////////////
  ///////////  Dropdown starts
@@ -125,7 +178,7 @@
 /*/////////////////////////////////////////////////////////
  ///////////  Portfolio Card starts
  ////////////////////////////////////////////////////////*/
-.items{
+.items {
   margin-top: 70px;
 }
 
@@ -213,7 +266,7 @@
     "item5 item5 item5 item6 item6 item6"
     "item7 item7 item8 item8 item9 item9"
     "item10 item10 item11 item11 item12 item12";
-  /* margin-bottom: 51px; */
+  margin-bottom: 51px;
 }
 
 /* Portfolio ends */
@@ -222,76 +275,229 @@
  ///////////  Services starts
  ////////////////////////////////////////////////////////*/
 
- .services{
-   margin-top: 182px;
- }
- .service{
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
-   grid-template-rows: 1fr 1fr;
-   grid-gap: 54px 54px;
- }
- .service .item:first-child{
-  background: #FFFBF5;
- }
- .service .item{
-  background: #FCFCFC;
+.services {
+  margin-top: 182px;
+}
+.service {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 54px 54px;
+  margin-top: 70px;
+}
+.service .item:hover {
+  background: #fffbf5;
+}
+.service .item {
+  background: #fcfcfc;
   padding: 20px 24px 16px 20px;
- }
- .service .item .icons{
+}
+.service .item .icons {
   font-size: 37px;
-  color: #A6A6A6;
- }
- .service .item h4{
-   display: inline;
+  color: #a6a6a6;
+}
+.service .item h4 {
+  display: inline;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 25px;
   line-height: 30px;
-  color: #A6A6A6;
- }
- .service .item h3{
-   margin: 32px 0 6px 0;
- }
- .item-text{
-   display: flex;
-   justify-content: space-between;
+  color: #a6a6a6;
+}
+.service .item h3 {
+  margin: 32px 0 6px 0;
+}
+.item-text {
+  display: flex;
+  justify-content: space-between;
+}
+.service .icons:first-child{
+  color:  #A6A6A6; 
+}
+.item .icons:hover {
+  color: #ff7300;
+}
+.item .rf-Arrow-4:last-child {
+  margin-left: 8px;
+}
+
+/* Services ends */
+
+/*/////////////////////////////////////////////////////////
+ /////////// Team starts
+ ////////////////////////////////////////////////////////*/
+.team {
+  margin-top: 180px;
+}
+.team-members {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 54px 54px;
+  margin-top: 70px;
+}
+.team-members .specialist {
+  display: flex;
+}
+.specialist .text {
+  margin: 14px 0 0 20px;
+}
+.specialist .text h3 {
+  margin-bottom: 5px;
+}
+.specialist .img img {
+  border: #e5e5e5 solid 6px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+/* tem ends  */
+
+/*/////////////////////////////////////////////////////////
+ /////////// Customers starts
+ ////////////////////////////////////////////////////////*/
+.customers {
+  margin-top: 180px;
+}
+
+.feedback {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 70px;
+}
+.feedback .feedback-item {
+  width: calc(100% / 3 - 20px);
+  height: max-content;
+  display: inline-block;
+  background: #fcfcfc;
+  border-radius: 5px;
+  padding: 30px 30px 6px;
+}
+.feedback-item img {
+  margin-bottom: 22px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.feedback-item p{
+  width: 100%;
+  max-width: 290px;
+}
+/* Customers ends  */
+
+
+/*/////////////////////////////////////////////////////////
+ /////////// Advantages starts
+ ////////////////////////////////////////////////////////*/
+ .advantage{
+  margin-top: 180px;
  }
  
- .item .rf-Arrow-4:last-child{
-  margin-left: 8px;
- }
+.advantage h1{
+  width: 100%;
+  max-width: 1110px;
+}
+.advantages p{
+  text-align: start;
+}
+.advantages .item-1{
+  width: calc(100% / 3 - 100px);
+  display: inline-block;
 
- /* Services ends */
+}
+ .advantages{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   column-gap: 50px;
+   margin-top: 28px;
+ }
+ 
+  .advantages .item-1 h2{
+   margin-bottom: 20px;
+ }
+ /* Advantages ends  */
 
  /*/////////////////////////////////////////////////////////
- /////////// Team starts
+ /////////// Order starts
  ////////////////////////////////////////////////////////*/
- .team{
-   margin-top: 180px;
+ .order{
+   margin-top: 380px;
+   margin-bottom: 210px;
  }
- .team-members{
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
-   grid-template-rows: 1fr 1fr 1fr;
-   grid-gap: 54px 54px;
-   margin-top: 70px;
- }
- .team-members .specialist{
-   display: flex;
- }
- .specialist .text{
-   margin: 14px 0 0 20px;
- }
- .specialist .text h3{
-   margin-bottom: 5px;
- }
- /* tem ends  */
+ .order h1{
+  width: 100%;
+  max-width: 832px;
+}
+.order h3{
+  text-align: center;
+ 
+}
+.order a:hover{
+  border-bottom: 3px solid #ff7300; 
+}
+.order p {
+  width: 100%;
+  max-width: 556px;
+}
 
-  /*/////////////////////////////////////////////////////////
- /////////// Team starts
+/* Order ends  */
+
+/*/////////////////////////////////////////////////////////
+ /////////// footer starts
  ////////////////////////////////////////////////////////*/
- .customers{
-   margin-top: 180px;
- }
+
+.footer-1{
+  background: #1C1C1F;
+  padding: 136px 0 118px ;
+}
+.footer-01{
+  display: flex;
+  justify-content: space-between;
+}
+.body-8{
+  margin-bottom: 13px;
+}
+.footer-2{
+  background: #1A191C;
+  padding: 32px 0 34px;
+}
+.footer-02{
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright ul{
+  display: flex;
+}
+.networks ul{
+  display: flex;
+}
+.address img{
+  margin-bottom: 86px;
+}
+.address h2{
+  margin-bottom: 10px;
+}
+.footer-01 h4{
+  margin-bottom: 18px;
+}
+.networks ul li{
+  margin-left: 20px;
+}
+.copyright ul li{
+  margin-right: 20px;
+}
+.copyright ul li:first-child{
+  border-right: 1px solid #fff;
+  padding-right: 20px;
+}
+ /* footer ends  */
+
