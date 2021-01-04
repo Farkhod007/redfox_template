@@ -1,13 +1,3 @@
-.text1 {
-  font-size: 48PX;
-  color: #C1C1F1;
-  font-family: 'Inter', sans-serif;
-  position: absolute;
-  left: 25%;
-  top: 117px;
-  width: 600px;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -15,48 +5,91 @@
   text-decoration: none;
   list-style-type: none;
 }
+
 /* /////////////////////////////////////////////////////////
 ///////////////////// menu starts
 /////////////////////////////////////////////////////////*/
+
+
+/* //////////////////menu desktop starts /////////////////////////////*/
 .nav {
   display: flex;
   justify-content: space-between;
   padding: 30px 0;
 }
-.nav img{
+
+.nav img {
   margin-left: 225px;
 }
+
 .nav .nav__right {
   display: flex;
   align-items: center;
 }
+
 .nav .nav__right button {
   border: none;
   background-color: transparent;
   padding: 0;
 }
+
 .nav .nav__list {
   display: flex;
   margin-right: 70px;
 }
-.nav .nav__list > li {
+
+.nav .nav__list>li {
   margin-right: 40px;
 }
-.nav .nav__list > li:last-child {
+
+.nav .nav__list>li:last-child {
   margin-right: 0;
 }
+
 .nav .nav__right button {
   margin-right: 28px;
 }
+
 .nav .nav__right button:last-child {
   margin-right: 0;
 }
+
+/* //////////////////menu desktop ends /////////////////////////////*/
+
+
+/* //////////////////menu laptop starts /////////////////////////////*/
+
+/* //////////////////menu laptop ends /////////////////////////////*/
+
+
+/* //////////////////menu tablets starts /////////////////////////////*/
+
+/* //////////////////menu tablets ends /////////////////////////////*/
+
+
+/* //////////////////menu mobile starts /////////////////////////////*/
+
+/* //////////////////menu mobile ends /////////////////////////////*/
+
+
+
+
 /* /////////////////////////////////////////////////////////
 ///////////////////// menu ends
 /////////////////////////////////////////////////////////*/
+
+
+
+
 /*//////////////////////////////////////////////////////////
 ////////////   Tab nav starts
 //////////////////////////////////////////////////////////*/
+
+
+
+
+/* //////////////////Tab nav ends desktop starts /////////////////////////////*/
+
 
 .tab-nav {
   display: block;
@@ -77,32 +110,55 @@
   margin-right: 40px;
 }
 
-/* Tab nav ends */
+/* //////////////////Tab nav ends desktop ends /////////////////////////////*/
 
-.heading_text {
-  margin-top: 70px;
+
+/* //////////////////Tab nav ends laptop starts /////////////////////////////*/
+
+
+
+/* //////////////////Tab nav ends laptop ends /////////////////////////////*/
+
+
+/* //////////////////Tab nav ends tablets starts /////////////////////////////*/
+@media (max-width: 1200px) {
+  .tab-nav {
+    margin-top: 50px;
+  }
 }
 
-.heading_text h2 {
-  font-family: "Inter";
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 36px;
-  letter-spacing: 0em;
-  text-align: left;
-  margin-bottom: 30px;
+/* //////////////////Tab nav ends tablets ends /////////////////////////////*/
+
+
+/* //////////////////Tab nav ends mobile starts /////////////////////////////*/
+@media (max-width: 816px) {
+  .tab-nav {
+    margin-top: 30px;
+  }
 }
+
+
+/* //////////////////Tab nav ends mobile ends /////////////////////////////*/
+
+
+
+
+/* ////////////////////////////////////////////////////////
+/////////////////////// Tab nav ends 
+//////////////////////////////////////////////////////////*/
+
 
 
 /*//////////////////////////////////////////////////////////
 ////////////   Portfolio layout starts
 //////////////////////////////////////////////////////////*/
 
+/* //////////////////Portfolio layout desktop starts /////////////////////////////*/
+
 .portfolio-layout {
   display: grid;
   grid-row-gap: 30px;
-  grid-template-columns: 23.2% auto 23.2%;
+  grid-template-columns: 20% 60% 20%;
 
 }
 
@@ -122,34 +178,159 @@
   margin-top: 70px;
 }
 
-.display-3 {
+.header-1 {
   margin-bottom: 30px;
 }
 
+.body-01-2 {
+
+  margin-bottom: 30px;
+
+}
+
+/* //////////////////Portfolio layout desktop ends /////////////////////////////*/
+
+
+/* //////////////////Portfolio layout laptop starts /////////////////////////////*/
+
+
+
+/* //////////////////Portfolio layout laptop ends /////////////////////////////*/
+
+
+/* //////////////////Portfolio layout tablets starts /////////////////////////////*/
 @media (max-width: 1200px) {
   .portfolio-layout {
     display: grid;
     grid-template-columns: 16.6% auto 16.6%;
+    grid-row-gap: 10px;
+  }
+
+  .body-1-03 {
+    margin-bottom: -10px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+  }
+
+  .body-1 {
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+  }
+
+  .column-3 {
+    grid-column: 2 / span 1;
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+
+  .column-1 {
+    grid-column: 2 / span 2;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  .column-2 .display-2 {
+    font-size: 30px;
+    width: 80%;
+    line-height: 36px;
+    margin-top: 80px;
+  }
+
+  .header-1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+  }
+
+  .body-01-2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    line-height: 28px;
+
 
   }
 }
-.portfolio-layout .column-2 h1{
-  margin-top: 70px;
+
+/* //////////////////Portfolio layout tablets ends /////////////////////////////*/
+
+
+/* //////////////////Portfolio layout mobile starts /////////////////////////////*/
+@media (max-width: 816px) {
+  .portfolio-layout {
+    display: grid;
+    grid-template-columns: 1% auto 1% 1%;
+    grid-row-gap: 10px;
+  }
+
+  .column-2 .display-2 {
+    font-size: 30px;
+    width: 343px;
+    line-height: 36px;
+  }
+
+  .header-1 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  .body-1-03 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: -0.005em;
+  }
+
+  .body-1 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: -0.005em;
+  }
+
+  .body-01-2 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .column-3 {
+    grid-column: 2 / span 1;
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 30px;
+  }
 }
-/* Portfolio layout ends */
-/* //////////////////////////////////////////////////////////////
-////////////////    Container
-/////////////////////////////////////////////////////////////////*/
+
+/* //////////////////Portfolio layout mobile ends /////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////
+//////////////////////// Portfolio layout ends 
+/////////////////////////////////////////////////////////////////////////////////*/
 
 
 /* ////////////////////////////////////////////////////////////////
 ////////////////////// header-image starts
 ///////////////////////////////////////////////////////////////////*/
+
+
+/* //////////////////header-image desktop starts /////////////////////////////*/
+
 .header-image {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+
   grid-gap: 18px;
   margin: 75px 0 70px;
+
 }
 
 .header-image img {
@@ -163,30 +344,144 @@
   grid-area: 1 / span 3 / 1 / span 3;
 }
 
+
+/* //////////////////header-image desktop ends /////////////////////////////*/
+
+
+/* //////////////////header-image laptop starts /////////////////////////////*/
+
+
+
+/* //////////////////header-image laptop ends /////////////////////////////*/
+
+
+/* //////////////////header-image tablets starts /////////////////////////////*/
+
+
+
+@media (max-width: 1200px) {
+  .image-1 {
+    grid-area: 1 / span 2;
+  }
+
+  .header-image {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 18px;
+    margin: 75px auto 50px auto;
+    width: 100%;
+  }
+
+  .header-image img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* //////////////////header-image tablets ends /////////////////////////////*/
+
+
+/* //////////////////header-image mobile starts /////////////////////////////*/
+@media (max-width: 816px) {
+  .image-1 {
+    grid-area: 1 / span 1;
+  }
+
+  .header-image {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-gap: 18px;
+    margin: 75px auto 43px auto;
+    width: 100%;
+  }
+
+  .header-image img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+/* //////////////////header-image mobile ends /////////////////////////////*/
+
+
+/* ////////////////////////////////////////////////////////////////
+////////////////////// header-image ends
+///////////////////////////////////////////////////////////////////*/
+
+
+
 /* ///////////////////////////////////////////////////////////////////////////////
-//////////////////////////final-state
+//////////////////////////final-state starts
 ///////////////////////////////////////////////////////////////////////////////*/
+
+
+/* //////////////////final-state desktop starts /////////////////////////////*/
 .final-state {
   margin-top: 60px;
-
-
 }
 
 .heading-3 {}
 
 .final-state h4 {
   width: 832px;
-
   top: 10px;
   padding: 0;
 }
 
+/* //////////////////final-state desktop ends /////////////////////////////*/
+
+
+/* //////////////////final-state laptop starts /////////////////////////////*/
+.final-state {
+  margin-top: 60px;
+}
+
+.heading-3 {}
+
+.final-state h4 {
+  width: 832px;
+  top: 10px;
+  padding: 0;
+}
+
+
+/* //////////////////final-state laptop ends /////////////////////////////*/
+
+
+/* //////////////////final-state tablets starts /////////////////////////////*/
+
+
+
+/* //////////////////final-state tablets ends /////////////////////////////*/
+
+
+/* //////////////////final-state mobile starts /////////////////////////////*/
+
+
+
+/* //////////////////final-state mobile ends /////////////////////////////*/
+
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////
+//////////////////////////final-state ends
+///////////////////////////////////////////////////////////////////////////////*/
+
+
+
 /* /////////////////////////////////////////////////
 //////////////////////// group starts
 ////////////////////////////////////////////////////*/
+
+
+/* ////////////// group desktop starts //////////////*/
 .group {
-  
-  margin-top: 180px;
+
+  margin-top: 50px;
 }
 
 .comands {
@@ -198,7 +493,14 @@
   padding-bottom: 74px;
 }
 
-.commands div {
+
+
+.comands .body-2-01 {
+  color: #FF7300;
+  margin-bottom: 16px;
+}
+
+.commands div>div {
 
   text-align: center;
 }
@@ -208,7 +510,7 @@
 }
 
 .body-02-2 {
-  line-height: 44px;
+  line-height: 4px;
 }
 
 .column-2>body {
@@ -216,15 +518,30 @@
 
 }
 
-.data {
-  padding-left: 10px;
+.data {}
+
+.heading .body-2-01 {
+  display: inline-block;
 }
 
-.comands .heading-4 {
+.data .display-3 {
+  margin-bottom: 34px;
+
+  line-height: 6px;
+}
+
+.list>.font-61-01 {
   margin-bottom: 16px;
 }
 
+.list {
+  border-bottom: none;
+}
 
+.heading span {
+  display: inline;
+  font-size: 0px;
+}
 
 .caption {
   padding: 5px 9px;
@@ -238,75 +555,498 @@
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-.hash-tag{
+
+.hash-tag {
   margin-top: 70px;
   line-height: 15px;
-  
+
+
 }
-.hash-tag .heading-4 {
+
+.hash-tag .font-61-01 {
   display: inline;
   color: #D2D2D2;
 }
-.hash-tag a{
+
+.hash-tag a {
   display: inline;
   display: inline-block;
+
 }
+
 .hash-tag h6 {
   display: inline-flex;
   font-size: 16px;
   color: #FF7A0D;
 
 }
+
+.tags {
+  margin-left: 0px;
+  margin-top: 0px;
+  color: #FF7300;
+  opacity: 0;
+}
+
+.tags h5 {
+  color: #FF7300;
+
+}
+
+/* //////////////// group desktop ends/////////////*/
+
+
+/* ///////////////group laptop starts///////////////*/
+
+
+
+/* ///////////////group laptop ends///////////////*/
+
+
+/* //////////////// group tablets starts/////////////*/
+@media (max-width: 1200px) {
+
+  .comands {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    width: 100%;
+    padding: 0px;
+    border-bottom: 1px solid #D2D2D2;
+  }
+
+
+  .hash-tag a {}
+
+  .hash-tag .font-61-01 {
+    display: inline;
+    color: #D2D2D2;
+    font-size: 0px;
+  }
+
+  /*
+  .container .heading h5{
+    margin-bottom: 0px;
+    margin-left: 16px;
+    margin-top: 30px;
+  }*/
+
+  .heading span {
+    color: #FF7300;
+    font-size: 25px;
+    border-radius: 0px;
+    display: inline-block;
+    margin-top: 10px;
+    position: absolute;
+    right: 10%;
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    -ms-border-radius: ;
+    -o-border-radius: ;
+  }
+
+  .data .display-3 {
+    line-height: normal;
+  }
+
+  .list {
+    border-bottom: 1px solid #EBEBEB;
+  }
+
+  .dat li {
+    text-align: left;
+    display: inline-block;
+  }
+
+
+  .finish-ends li {
+    display: inline;
+  }
+
+  .comands-control {
+    margin-top: 16px;
+    display: inline;
+  }
+
+  .comands ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .caption {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    padding: 5px 9px;
+    background-color: #F1F1F1;
+    margin-top: 15px;
+    grid-gap: 100px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-align: center;
+    margin-right: auto;
+  }
+
+  .data-finish {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .hash-tag {
+    margin-top: 20px;
+    line-height: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .comands .dat {
+    display: inline;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .list .font-61-01 {
+    margin-bottom: 16px;
+    font-size: 15px;
+  }
+
+  .data {
+    display: inline-block;
+  }
+
+  .tags {
+    margin-left: 16px;
+    margin-top: 30px;
+    color: #FF7300;
+    opacity: 1;
+  }
+
+  .tags h5 {
+    color: #FF7300;
+
+  }
+
+  .start-finish .heading {
+    display: inline-block;
+  }
+}
+
+/* //////////////// group tablets ends/////////////*/
+
+
+
+
+
+/* ////////////////////group mobile starts///////////*/
+@media (max-width: 816px) {
+  .group {
+
+    margin-top: 5px;
+  }
+
+  .comands {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    width: 94%;
+    padding: 0px;
+    border-bottom: none;
+    margin-left: 4%;
+  }
+
+  .tags {
+    margin-left: 16px;
+    opacity: 1;
+  }
+
+  .hash-tag a {}
+
+  .hash-tag .font-61-01 {
+    display: inline-block;
+    color: #D2D2D2;
+    font-size: 0px;
+  }
+
+
+  .data-finish {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+
+
+  .dat li {
+    text-align: left;
+    display: block;
+  }
+
+
+  .finish-ends li {
+    text-align: left;
+    display: inline;
+  }
+
+  .finish-ends {
+    border-bottom: none;
+    padding-bottom: 30px;
+  }
+
+  .comands ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row: 130px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #D2D2D2;
+    width: 95%;
+  }
+
+
+  .caption {
+    display: block;
+    padding: 5px 9px;
+    background-color: #F1F1F1;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-right: auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-align: left;
+    margin-left: 0px;
+  }
+
+  .hash-tag {
+    margin-top: 0px;
+    line-height: 15px;
+    display: grid;
+    grid-template-columns: auto;
+    border-bottom: none;
+    margin-left: 4%;
+    width: 92%;
+    padding-bottom: 0px;
+
+  }
+
+  .comands .font-61-01 {
+    margin-bottom: 16px;
+    font-size: 15px;
+  }
+}
+
+/* ////////////////////group mobile ends///////////*/
+
+
+/* /////////////////////////////////////////////////
+//////////////////////// group ends
+////////////////////////////////////////////////////*/
+
+
+
+
 /* ////////////////////////////////////////////////
 //////////////////  project starts
 ////////////////////////////////////////////////*/
 
-.project{
+
+/* //////////////////project starts desktop starts /////////////////////////////*/
+
+.project {
   margin-top: 70px;
   background-color: #F9F9F9;
   border-top: 1px solid white;
   height: 659px;
 }
 
-.project .container{
-margin-top: 149px;
+.project .container {
+  margin-top: 18px;
+  grid-template-columns: auto auto auto;
+  display: grid;
 }
-.project .container h3{
-margin-left: 18px;
+
+.project h3 {
+  margin-top: 120px;
+  margin-left: 18px;
 }
-.project .container div{
-  width: 358px;
+
+.project .container div {
   height: 277px;
   border: 1px solid white;
-  display: inline-flex;
-  margin-left: 18px;
-  margin-top: 18px;
-}
-.project-image-1{
-  background-color: white;
-}
-.project-image-1 img{
-margin: 110px 0px 105px 151px;
-}
-.project-image-2{
-  background-color:  #01468D;;
-}
-.project-image-2 img{
-  margin: 110px 0px 105px 151px;
-  }
-.project-image-3{
-  background-color: white;
-}
-.project-image-3 img{
-  margin: 110px 0px 105px 151px;
-  }
-.project .container h6{
   display: inline-block;
-  margin-top: 303px;
-  position: absolute;
   margin-left: 18px;
-  margin-bottom: 180px;
+  row-gap: 18px;
 }
-.project .container h6{
+
+.project-image-1 {
+  background-color: white;
+}
+
+.project-image-1 img {
+  margin: 110px 0px 105px 151px;
+}
+
+.project-image-2 {
+  background-color: #01468D;
+  ;
+}
+
+.project-image-2 img {
+  margin: 110px 0px 105px 151px;
+}
+
+.project-image-3 {
+  background-color: white;
+}
+
+.project-image-3 img {
+  margin: 110px 0px 105px 151px;
+}
+
+.project .container h6 {
+  display: inline-block;
+  background-color: #F9F9F9;
+  margin-top: 16px;
+}
+
+.project .container h6 {
   color: black;
 }
+
+/* //////////////////project starts desktop ends /////////////////////////////*/
+
+
+/* //////////////////project starts laptop starts /////////////////////////////*/
+
+
+
+/* //////////////////project starts laptop ends /////////////////////////////*/
+
+
+/* //////////////////project starts tablets starts /////////////////////////////*/
+@media (max-width: 1200px) {
+  .project .container div {
+    width: 246px;
+    height: 200px;
+    border: 1px solid white;
+    display: inline-flex;
+    margin-left: 15px;
+    row-gap: 18px;
+  }
+
+  .project .container {
+    width: 100%;
+  }
+
+  .project h3 {
+    margin-top: 120px;
+  }
+
+  .project .container h6 {
+    display: inline-block;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 0px;
+  }
+
+  .project-image-3 img {
+    margin: 67px 0px 78px 92px;
+  }
+
+  .project-image-2 img {
+    margin: 67px 0px 78px 92px;
+  }
+
+  .project-image-1 img {
+    margin: 67px 0px 78px 92px;
+  }
+}
+
+/* //////////////////project starts tablets ends /////////////////////////////*/
+
+
+/* //////////////////project starts mobile starts /////////////////////////////*/
+
+@media (max-width: 816px) {
+  .project {
+    height: auto;
+    background-color: #F9F9F9;
+    border-top: 1px solid white;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+  }
+
+  .project .container div {
+    width: 154px;
+    height: 120px;
+    border: 0px solid white;
+    display: grid;
+    row-gap: 49px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    column-gap: 15px;
+    margin-left: 15px;
+  }
+
+  .project .container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 49px;
+    margin-top: 10px;
+  }
+
+  .project .container h6 {
+    margin-top: 0px;
+    position: absolute;
+    margin-left: 0px;
+    background-color: #F9F9F9;
+    padding: 0;
+    margin-bottom: 1px;
+    margin-top: 125px;
+  }
+
+  .project h3 {
+    margin-left: 18px;
+    margin-top: 0px;
+    font-size: 20px;
+    line-height: 24px;
+
+
+  }
+
+  .project-image-3 img {
+    margin: 42px 65px;
+    width: 34px;
+    height: 36px;
+    text-align: center;
+  }
+
+  .project-image-3 {
+    background-color: #F1F1F1;
+    height: auto;
+  }
+
+  .project-image-2 img {
+    margin: 42px 65px;
+    width: 34px;
+    height: 36px;
+  }
+
+  .project-image-1 img {
+    margin: 42px 65px;
+    width: 34px;
+    height: 36px;
+  }
+
+  .project-image-1 {
+    background-color: #F1F1F1;
+  }
+}
+
+/* //////////////////project starts mobile ends /////////////////////////////*/
+
+/* ////////////////////////////////////////////////
+//////////////////  project starts
+////////////////////////////////////////////////*/
