@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+  }
+@media (min-width: 1500px) {
+    .container-agency {
+        width: 832px;
+        margin: auto;
+    }
+}
+/*/////////////////////////////////////////////////////////
+ ///////////  Navbar starts
+ ////////////////////////////////////////////////////////*/
+
+ .nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+  }
+  .nav .nav__right {
+    display: flex;
+    align-items: center;
+  }
+  .nav .nav__right button {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+  }
+  .nav .nav__list {
+    display: flex;
+    margin-right: 70px;
+  }
+  .nav .nav__list > li {
+    margin-right: 40px;
+  }
+  .nav .nav__list > li:last-child {
+    margin-right: 0;
+  }
+  .nav .nav__right button {
+    margin-right: 28px;
+  }
+  .nav .nav__right button:last-child {
+    margin-right: 0;
+  }
+  .nav__list .body-0101:hover{
+    border-bottom: 3px solid #ff7300;
+  }
+  
+  /* Navbar ends    */
+  
+/*/////////////////////////////////////
+////////////// agency-header starts
+///////////////////////////////////// */
+.container-agency {
+    width: 832px;
+    margin: auto;
+}
+.agency-header{
+    margin-top: 180px;
+}
+.agency-header > .body-1{
+    line-height: 30px;
+    margin-top: 16px;
+}
+.agency-header > .body-01{
+    line-height: 32px;
+    color: #1F1F1F;
+    margin-top: 70px ;
+}
+/*/////////////////////////////////////
+////////////// agency-header ends
+///////////////////////////////////// */
+/*/////////////////////////////////////
+////////////// vacancy starts
+///////////////////////////////////// */
+
+.vacancy{
+    margin-top: 16px;
+    margin: auto;
+}
+.vacancy img{
+    height: 624px;
+    width: 100%;
+    margin-top: 16px;
+}
+/*/////////////////////////////////////
+////////////// vacancy ends
+///////////////////////////////////// */
+
+/*/////////////////////////////////////
+////////////// vacancy-text starts
+///////////////////////////////////// */
+
+
+
+/*/////////////////////////////////////
+////////////// agency-layout starts
+//////////////////////////////////S/// */
+.agency-layout{
+    margin-top: 30px;
+}
+.column-1{
+
+}
+.column-2{
+    margin-top: 70px;
+}
+.column-2 p{
+    line-height: 32px;
+    color: #1F1F1F;
+    margin-top: 15px ;
+}
+
+
+.column-3{
+    margin-top: 70px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 30px;
+    height: auto;
+}
+.column-3 div{
+height: 36px;
+}
+.column-3 div p{
+    color: #1F1F1F;
+    display: inline;
+    line-height: 32px;
+}
+.column-3 div > h3{
+    display: inline-block;
+    margin: 0;
+    line-height: 24px;
+}
+/*/////////////////////////////////////
+////////////// agency-layout ends
+//////////////////////////////////S/// */
+
+/*/////////////////////////////////////
+////////////// agency-image starts
+//////////////////////////////////S/// */
+.agency-image{
+    margin-top: 70px;
+}
+.agency-image h2{
+    width: 832px;
+    margin: auto;
+}
+.agency-layout-image{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 18px;
+    margin-top: 30px;
+    column-gap: 18px;
+}
+/*/////////////////////////////////////
+////////////// hash-tag starts
+//////////////////////////////////S/// */
+.caption {
+    padding: 5px 9px;
+    background-color: #F1F1F1;
+    margin-top: 15px;
+    margin-left: 15px;
+    display: inline-block;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+  .hash-tag a {
+    display: inline;
+    display: inline-block;
+  
+  }
+  
+  .hash-tag h6 {
+    display: inline-flex;
+    font-size: 16px;
+    color: #FF7A0D;
+  
+  }
+  .hash-tag .font-61-01 {
+    display: inline;
+    color: #D2D2D2;
+  }
+  .hash-tag{
+    border-top: 1px solid #D2D2D2;  
+    margin-top: 70px;
+      padding-top: 20px;
+  }
+  .data{
+      margin-top: 70px;
+     width: auto;
+     height: auto;
+  }
+  .data img{
+      width: 64px;
+      height: 64px;
+      margin-top: 10px;
+      border-radius: 163.391px;
+      border: 5px solid#F1F1F1;
+  }
+  .data > div > p{
+
+margin-top: 7px;
+color: #FF7300;
+  }
+  .data div{
+    display: block;
+    margin-top: -57px;
+    margin-left: 82px;
+    margin-bottom: 50px;
+  }
+
+  
+  .url-adres > .caption {
+    padding: 5px 9px;
+    background-color: #F1F1F1;
+    margin-top: 15px;
+    margin-left: 20px;
+    display: inline-block;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.url-adres > .caption:hover{
+background-color: #FFEBD1;
+}
+.url-adres > .caption:active{
+    color: #3D87DF;
+    background-color:  #F1F1F1;
+    }
+  .url-adres a {
+    display: inline;
+    display: inline-block;
+  
+  }
+  
+  .url-adres h6 {
+    display: inline-flex;
+    font-size: 16px;
+    color: #FF7A0D;
+  
+  }
+  .url-adres .font-61-01 {
+    display: inline;
+    color: #D2D2D2;
+  }
+  .url-adres{
+    border-top: 1px solid #D2D2D2;  
+    margin-top: 70px;
+      padding-top: 20px;
+      padding-bottom: 0px;
+  }
+  /*/////////////////////////////////////
+////////////// jobs-interesting starts
+//////////////////////////////////S/// */
+.jobs-interesting{
+    margin-top: 70px;
+    background-color: #F9F9F9;
+    border-top: 1px solid white;
+    height: 659px;
+    
+}
+.jobs-interesting .container{
+    margin-top: 120px;
+}
+.interesting-block{
+    margin-top: 30px;
+}
+.malumot{
+    margin-top: 18px;
+}
+.malumot .text{
+    display: block;
+    margin-top: -47px;
+    margin-left: 82px;
+   
+}
+.malumot .text p{
+    margin-top: 5px;
+}
+.interesting-block div > img{
+     border-radius:163px; 
+    -webkit-border-radius:163px;
+     -moz-border-radius:163px;
+      -ms-border-radius:163px;
+       -o-border-radius:163px;
+}
+.blocks{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+/*/////////////////////////////////////
+////////////// jobs-interesting ends
+///////////////////////////////////// */
+
+
+/*/////////////////////////////////////////////////////////
+ /////////// footer starts
+ ////////////////////////////////////////////////////////*/
+
+ .footer-1{
+    background: #1C1C1F;
+    padding: 136px 0 118px ;
+  }
+  .footer-01{
+    display: flex;
+    justify-content: space-between;
+  }
+  .body-8{
+    margin-bottom: 13px;
+  }
+  .footer-2{
+    background: #1A191C;
+    padding: 32px 0 34px;
+  }
+  .footer-02{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .copyright ul{
+    display: flex;
+  }
+  .networks ul{
+    display: flex;
+  }
+  .address img{
+    margin-bottom: 86px;
+  }
+  .address h2{
+    margin-bottom: 10px;
+  }
+  .footer-01 h4{
+    margin-bottom: 18px;
+  }
+  .networks ul li{
+    margin-left: 20px;
+  }
+  .copyright ul li{
+    margin-right: 20px;
+  }
+  .copyright ul li:first-child{
+    border-right: 1px solid #fff;
+    padding-right: 20px;
+  }
+   /* footer ends  */
