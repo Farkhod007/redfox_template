@@ -93,6 +93,14 @@
 /* //////////////////////////////////////
 //////////////////// inter starts////////////////////////////////////////////////////
 ///////////////////////// */
+.body-yellow {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+  color: #FF7300;
+}
 .body-01 {
   font-family: "Inter";
   font-style: normal;
@@ -230,7 +238,7 @@
   font-weight: normal;
   font-size: 13px;
   line-height: 16px;
-  color: #1C1C1F;
+  color: #1c1c1f;
 }
 .body-5 {
   font-family: "Inter";
