@@ -555,17 +555,25 @@
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-
+.caption:hover{
+  background-color: #FFEBD1;
+}
+.caption:active{
+  background-color: #FF7300;
+  color: white;
+}
 .hash-tag {
   margin-top: 70px;
   line-height: 15px;
-
-
 }
 
 .hash-tag .font-61-01 {
   display: inline;
   color: #D2D2D2;
+}
+.hash-tag .font-61-01:active {
+  display: inline;
+  color: white;
 }
 
 .hash-tag a {
@@ -814,7 +822,9 @@
     text-align: left;
     margin-left: 0px;
   }
-
+.caption:hover{
+  background-color: #FFEBD1;
+}
   .hash-tag {
     margin-top: 0px;
     line-height: 15px;
