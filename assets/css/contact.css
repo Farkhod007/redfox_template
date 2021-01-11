@@ -151,15 +151,15 @@ border-top: none;
   
   /*///////////////header ends///////////*/
 
-/*//////////////side starts/////////*/
+/*//////////////side1 starts/////////*/
 
-.grid-container {
+.contact-1 {
   display: grid;
   grid-template-columns: auto auto;
   grid-column-gap: 30px;
 }
 
-.grid-container p {
+.contact-1 p {
   color: #8C8C8C;
   padding-top: 16px;
   padding-bottom: 30px;
@@ -178,18 +178,18 @@ border-top: none;
   margin-bottom: 70px;
 }
 
-.side-h1 {
+.officce-1 .display-2 {
   margin: 70px 0;
 }
 
 
-.side-h3 {
+.officce-1 h3 {
   margin-bottom: 30px;
 }
 
 /*//////////side-2 end//////////*/
 
-.side2-h4 {
+.office-2 .header-4{
   margin-top: 70px;
   margin-bottom: 30px;
 }
@@ -198,22 +198,22 @@ border-top: none;
 
 /*/////////socal networking start////////////*/
 
-.networking-h2 {
+.header-1 {
   margin-bottom: 75px;
 }
 
-.networks ul {
+.networks-0 ul {
   display: flex;
 }
 
-.networks li {
+.networks-0 li {
   margin-right: 50px;
   background: #F1F1F1;
   border-radius: 3px;
   padding: 5px 10px;
 }
 
-.networks a:hover {
+.networks-0 li:hover {
   background-color: #FFEBD1;
 }
 
