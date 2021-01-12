@@ -107,27 +107,22 @@
 .agency-layout{
     margin-top: 30px;
 }
-.column-1{
-
-}
-.column-2{
+.agency-layout > .column-2{
     margin-top: 70px;
 }
-.column-2 p{
+.agency-layout > .column-2 p{
     line-height: 32px;
     color: #1F1F1F;
     margin-top: 15px ;
 }
-
-
-.column-3{
+.agency-layout > .column-3{
     margin-top: 70px;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-row-gap: 30px;
     height: auto;
 }
-.column-3 div{
+.agency-layout > .column-3 div{
 height: 36px;
 }
 .column-3 div p{
@@ -177,13 +172,13 @@ height: 36px;
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
 }
-  .hash-tag a {
+  .container-agency .hash-tag a {
     display: inline;
     display: inline-block;
   
   }
   
-  .hash-tag h6 {
+  .container-agency .hash-tag h6 {
     display: inline-flex;
     font-size: 16px;
     color: #FF7A0D;
