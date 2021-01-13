@@ -13,6 +13,16 @@
 		el.innerHTML = '<span style="font-family: \'icomoon\'">' + entity + '</span>' + html;
 	}
 	var icons = {
+		'rf-Stroke': '&#xe908;',
+		'rf-authors': '&#xe900;',
+		'rf-hashtag': '&#xe901;',
+		'rf-android': '&#xe902;',
+		'rf-apple': '&#xe903;',
+		'rf-webdev': '&#xe904;',
+		'rf-molecule': '&#xe905;',
+		'rf-marketing': '&#xe906;',
+		'rf-newspaper': '&#xe907;',
+		'rf-X': '&#xe909;',
 		'rf-Arrow-4-': '&#xeb65;',
 		'rf-package': '&#xeb64;',
 		'rf-instagram': '&#xeb63;',

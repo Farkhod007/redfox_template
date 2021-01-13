@@ -832,9 +832,13 @@ header h1 {
 /*/////////////////////////////////////////////////////////
  /////////// Order starts
  ////////////////////////////////////////////////////////*/
+.orders {
+  background-color: #fcfcfc;
+}
 .order {
-  margin-top: 380px;
-  margin-bottom: 210px;
+  margin-top: 180px;
+  padding-top: 200px;
+  padding-bottom: 210px;
 }
 .order h1 {
   width: 100%;
@@ -970,14 +974,14 @@ footer a:hover {
 @media (max-width: 816px) {
   .footer-02 .body-8-01 {
     font-weight: 600;
-    font-size: 13px ;
+    font-size: 13px;
     line-height: 16px;
-    color: #D2D2D2;
+    color: #d2d2d2;
   }
-  .footer-02 .d-sm-f{
+  .footer-02 .d-sm-f {
     display: none;
   }
-  .footer-02{
+  .footer-02 {
     margin: auto;
   }
   .footer-02 .copyright {

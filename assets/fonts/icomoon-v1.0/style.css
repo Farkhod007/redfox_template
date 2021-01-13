@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?rlspn2');
-  src:  url('fonts/icomoon.eot?rlspn2#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?rlspn2') format('truetype'),
-    url('fonts/icomoon.woff?rlspn2') format('woff'),
-    url('fonts/icomoon.svg?rlspn2#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?dea8jq');
+  src:  url('fonts/icomoon.eot?dea8jq#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?dea8jq') format('truetype'),
+    url('fonts/icomoon.woff?dea8jq') format('woff'),
+    url('fonts/icomoon.svg?dea8jq#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,45 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.rf-Stroke:before {
+  content: "\e908";
+  color: #ff7300;
+}
+.rf-authors:before {
+  content: "\e900";
+  color: #a6a6a6;
+}
+.rf-hashtag:before {
+  content: "\e901";
+  color: #a6a6a6;
+}
+.rf-android:before {
+  content: "\e902";
+  color: #a6a6a6;
+}
+.rf-apple:before {
+  content: "\e903";
+  color: #a6a6a6;
+}
+.rf-webdev:before {
+  content: "\e904";
+  color: #a6a6a6;
+}
+.rf-molecule:before {
+  content: "\e905";
+  color: #a6a6a6;
+}
+.rf-marketing:before {
+  content: "\e906";
+  color: #a6a6a6;
+}
+.rf-newspaper:before {
+  content: "\e907";
+  color: #ff7300;
+}
+.rf-X:before {
+  content: "\e909";
+}
 .rf-Arrow-4-:before {
   content: "\eb65";
   color: #d2d2d2;
