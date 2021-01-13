@@ -147,84 +147,71 @@
   margin-top: -10px;
 }
 
-/*/////////////////////////////////////////////////////////////////////////////////////////
-/////////////        Map start                            //////////////////////////////////
-/////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+ ///////////  Map starts
+ ////////////////////////////////////////////////////////*/
 
-.conference h2 {
+.maps {
+  margin: 70px 0;
+}
+
+.maps .contact-1 {
+  margin-top: 30px;
+}
+
+.maps .map-1 .map-2 {
   margin-top: 70px;
 }
 
-.map {
-  margin-top: 70px;
-}
-
-.map .contact-1 {
+.maps .contact-1 {
   display: grid;
   grid-template-columns: auto auto;
   grid-column-gap: 30px;
 }
 
-.map .map-1 .display-2 {
-  margin: 70px 0;
-}
-
-.map-1 iframe,
-address {
+.maps iframe address {
   margin-top: 30px;
 }
 
-.map .contact-1 p {
+.maps .contact-1 p {
   color: #8c8c8c;
   padding-top: 16px;
   padding-bottom: 30px;
   color: #8c8c8c;
 }
 
-.map h4 {
+.maps h4 {
   margin-bottom: 30px;
 }
 
-.map hr {
+.maps hr {
   color: #d1d1d1;
   margin-top: 70px;
   margin-bottom: 127px;
 }
 
-.map .map-2 {
-  margin-top: 70px;
-}
-
-.map .map-2 .contact-1 {
-  margin-top: 30px;
-}
-
-.map .map-2 address {
-  margin-top: 0;
-}
-
 /*////////////////////  Map end //////////////////////*/
 
-/*//////////////////////////////////////////
-///        socal networks start        ///
-/////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+ ///////////  Social-networks starts
+ ////////////////////////////////////////////////////////*/
 
 .networks .header-1 {
   margin-bottom: 75px;
 }
 
-.networks .networks-items ul {
+.networks .items ul {
   display: flex;
 }
 
-.networks .networks-items li {
+.networks .items li {
   margin-right: 50px;
   background: #f1f1f1;
   border-radius: 3px;
   padding: 5px 10px;
 }
 
-.networks .networks-items li:hover {
+.networks .items li:hover {
   background-color: #ffebd1;
 }
 
