@@ -92,26 +92,25 @@
 ///        header start          ///
 //////////////////////////////////*/
 
-
-.container{
+.container {
   margin-left: auto;
 }
-.agensy-layout{
+.agensy-layout {
   margin-top: 180px;
 }
-.display-1-yellow{
-  color:#FF7300;
+.display-1-yellow {
+  color: #ff7300;
 }
-.column-2 > .display-1 p{
+.column-2 > .display-1 p {
   display: inline;
 }
 .column-2 span {
-width: 650px;
-display: inline-block;
+  width: 650px;
+  display: inline-block;
 }
-.column-2 p{
-width: 650px;
-margin-top: 33px;
+.column-2 p {
+  width: 650px;
+  margin-top: 33px;
 }
 .header > .tab-nav {
   display: block;
@@ -121,10 +120,8 @@ margin-top: 33px;
   margin-top: 70px;
 }
 
-
-
 .agensy-layout-tab .active {
-  border-bottom: 3px solid #FF7300;
+  border-bottom: 3px solid #ff7300;
   margin-top: 7px;
   width: 78px;
   margin-top: 70px;
@@ -133,7 +130,6 @@ margin-top: 33px;
 .agensy-layout-tab a {
   padding-bottom: 7px;
 }
-
 
 .header > .tab-nav li {
   margin-right: 40px;
@@ -146,117 +142,99 @@ margin-top: 33px;
 }
 
 .agensy-layout-tab .column-2 hr {
-  background-color: #D2D2D2;
+  background-color: #d2d2d2;
   height: 3px;
   margin-top: -10px;
 }
 
+/*/////////////////////////////////////////////////////////////////////////////////////////
+/////////////        Map start                            //////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////*/
 
-/*///////////////////////////////////
-///        sidebar-1 start        ///
-//////////////////////////////////*/
+.conference h2 {
+  margin-top: 70px;
+}
 
-.sidebar-1 .contact-1 {
+.map {
+  margin-top: 70px;
+}
+
+.map .contact-1 {
   display: grid;
   grid-template-columns: auto auto;
   grid-column-gap: 30px;
 }
 
-.sidebar-1 .display-2 {
+.map .map-1 .display-2 {
   margin: 70px 0;
 }
 
-.sidebar-1 iframe {
+.map-1 iframe,
+address {
   margin-top: 30px;
 }
 
-.sidebar-1 address {
-  margin-top: 30px;
-}
-
-.sidebar-1 .contact-1 p {
+.map .contact-1 p {
   color: #8c8c8c;
   padding-top: 16px;
   padding-bottom: 30px;
   color: #8c8c8c;
 }
 
-.sidebar-1 h5 {
+.map h4 {
   margin-bottom: 30px;
 }
 
-.sidebar-1 hr {
+.map hr {
   color: #d1d1d1;
   margin-top: 70px;
   margin-bottom: 127px;
 }
 
-/*//////////sidebar-1 end//////////*/
-
-/*///////////////////////////////////
-///        sidebar-2 start        ///
-//////////////////////////////////*/
-
-.sidebar-2 .contact-1 {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-column-gap: 30px;
-}
-
-.sidebar-2 .header-4 {
+.map .map-2 {
   margin-top: 70px;
-  margin-bottom: 30px;
 }
 
-.sidebar-2 .contact-1 p {
-  color: #8c8c8c;
-  padding-top: 16px;
-  padding-bottom: 30px;
-  color: #8c8c8c;
+.map .map-2 .contact-1 {
+  margin-top: 30px;
 }
 
-.sidebar-2 h5 {
-  margin-bottom: 30px;
+.map .map-2 address {
+  margin-top: 0;
 }
 
-.sidebar-2 hr {
-  color: #d1d1d1;
-  margin-top: 70px;
-  margin-bottom: 70px;
-}
-
-/*//////////sidebar-2 end//////////*/
+/*////////////////////  Map end //////////////////////*/
 
 /*//////////////////////////////////////////
-///        socal networking start        ///
+///        socal networks start        ///
 /////////////////////////////////////////*/
 
-.networkings .header-1 {
+.networks .header-1 {
   margin-bottom: 75px;
 }
 
-.networkings .networks-items ul {
+.networks .networks-items ul {
   display: flex;
 }
 
-.networkings .networks-items li {
+.networks .networks-items li {
   margin-right: 50px;
   background: #f1f1f1;
   border-radius: 3px;
   padding: 5px 10px;
 }
 
-.networkings .networks-items li:hover {
+.networks .networks-items li:hover {
   background-color: #ffebd1;
 }
 
-/*/////////socal networking ends////////////*/
+/*/////////socal networks ends////////////*/
 
 /*/////////////////////////////////////////////////////////
  /////////// footer starts
  ////////////////////////////////////////////////////////*/
 
- .footer-1 {
+.footer-1 {
   background: #1c1c1f;
   padding: 136px 0 118px;
   margin-top: 169px;
@@ -325,19 +303,19 @@ footer a:hover {
   }
 }
 @media (max-width: 816px) {
-  .footer-networks{
+  .footer-networks {
     margin: auto;
   }
   .footer-networks .body-8-01 {
     font-weight: 600;
-    font-size: 13px ;
+    font-size: 13px;
     line-height: 16px;
-    color: #D2D2D2;
+    color: #d2d2d2;
   }
-  .footer-networks .d-sm-f{
+  .footer-networks .d-sm-f {
     display: none;
   }
-  
+
   .footer-networks .copyright {
     margin: auto;
   }
