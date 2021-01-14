@@ -832,13 +832,23 @@ header h1 {
 /*/////////////////////////////////////////////////////////
  /////////// Order starts
  ////////////////////////////////////////////////////////*/
+<<<<<<< HEAD
 .orders {
   background-color: #fcfcfc;
 }
+=======
+ .orders{
+  background-color: #FCFCFC;
+ }
+>>>>>>> adb20870b471d34a87fe3c8e40332042d4938f1a
 .order {
   margin-top: 180px;
   padding-top: 200px;
   padding-bottom: 210px;
+<<<<<<< HEAD
+=======
+  
+>>>>>>> adb20870b471d34a87fe3c8e40332042d4938f1a
 }
 .order h1 {
   width: 100%;
@@ -846,6 +856,7 @@ header h1 {
 }
 .order h3 {
   text-align: center;
+ 
 }
 .order a:hover {
   border-bottom: 3px solid #ff7300;
