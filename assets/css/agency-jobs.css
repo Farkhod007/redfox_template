@@ -47,10 +47,13 @@
   }
   
   /* Navbar ends    */
+  /*/////////////////////////////////////
+////////////// agency-layout starts
+///////////////////////////////////// */
 .container{
     margin-left: auto;
 }
-.agensy-layout{
+.container .agensy-layout{
     margin-top: 180px;
 }
 .display-1-yellow{
@@ -99,23 +102,13 @@ margin-top: 33px;
   .header a {
       margin-top: 70px;
   }
-/*/////////////////////////////////////
-////////////// agency-layout ends
-///////////////////////////////////// */
-
+  /* Agency-layout ends    */
+  
 /*/////////////////////////////////////
 ////////////// agency-group starts
 ///////////////////////////////////// */
-@media (min-width: 1500px) {
-    .container-agency {
-        width: 832px;
-        margin: auto;
-    }
-}
-.container-agency {
-    width: 832px;
-    margin: auto;
-}
+
+
 .agency-group{
     margin-bottom: 180px;
 }
@@ -147,9 +140,7 @@ margin-top: 33px;
     margin-left: 203px;
     margin-bottom: 50px;
 }
-/*/////////////////////////////////////
-////////////// agency-group ends
-///////////////////////////////////// */
+  /* agency-group ends    */
 
 /*/////////////////////////////////////////////////////////
  /////////// footer starts

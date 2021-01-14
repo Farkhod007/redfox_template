@@ -58,3 +58,15 @@
     width: 1404px;
   }
 }
+
+
+@media (min-width: 1500px) {
+  .container-xl {
+      width: 832px;
+      margin: auto;
+  }
+}
+.container-xl {
+  width: 832px;
+  margin: auto;
+}

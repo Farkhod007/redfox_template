@@ -47,6 +47,9 @@
   }
   
   /* Navbar ends    */
+  /*/////////////////////////////////////
+////////////// agency-layout starts
+///////////////////////////////////// */
 .container{
     margin-left: auto;
 }
@@ -61,6 +64,7 @@
 }
 .display-1 {
 width: 650px;
+display: block;
 }
 .column-2 p{
 width: 650px;
@@ -99,10 +103,11 @@ margin-top: 33px;
   .header a {
       margin-top: 70px;
   }
-/*/////////////////////////////////////
-////////////// agency-layout ends
+  /* agency-layout ends    */
+ 
+    /*/////////////////////////////////////
+////////////// group desktop starts
 ///////////////////////////////////// */
-/* ////////////// group desktop starts //////////////*/
 .group {
 
     margin-top: 50px;

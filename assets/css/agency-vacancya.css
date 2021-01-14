@@ -6,12 +6,6 @@
   list-style-type: none;
 }
 
-@media (min-width: 1500px) {
-  .container-agency {
-    width: 832px;
-    margin: auto;
-  }
-}
 
 /*/////////////////////////////////////////////////////////
  ///////////  Navbar starts
@@ -68,12 +62,8 @@
 /*/////////////////////////////////////
 ////////////// agency-header starts
 ///////////////////////////////////// */
-.container-agency {
-  width: 832px;
-  margin: auto;
-}
 
-.container-agency .agency-header {
+.container-xl .agency-header {
   margin-top: 180px;
 }
 
@@ -186,7 +176,7 @@
 /*/////////////////////////////////////
 ////////////// hash-tag starts
 //////////////////////////////////S/// */
-.container-agency .hash-tag .caption {
+.container-xl .hash-tag .caption {
   padding: 5px 9px;
   background-color: #F1F1F1;
   margin-top: 15px;
@@ -199,37 +189,37 @@
   -o-border-radius: 3px;
 }
 
-.container-agency .hash-tag a {
+.container-xl .hash-tag a {
   display: inline;
   display: inline-block;
 
 }
 
-.container-agency .hash-tag h6 {
+.container-xl .hash-tag h6 {
   display: inline-flex;
   font-size: 16px;
   color: #FF7A0D;
 
 }
 
-.container-agency .hash-tag .font-61-01 {
+.container-xl .hash-tag .font-61-01 {
   display: inline;
   color: #D2D2D2;
 }
 
-.container-agency .hash-tag {
+.container-xl .hash-tag {
   border-top: 1px solid #D2D2D2;
   margin-top: 70px;
   padding-top: 20px;
 }
 
-.container-agency .data {
+.container-xl .data {
   margin-top: 70px;
   width: auto;
   height: auto;
 }
 
-.container-agency .data img {
+.container-xl .data img {
   width: 64px;
   height: 64px;
   margin-top: 10px;
@@ -243,7 +233,7 @@
   color: #FF7300;
 }
 
-.container-agency .data div {
+.container-xl .data div {
   display: block;
   margin-top: -57px;
   margin-left: 82px;
@@ -251,7 +241,7 @@
 }
 
 
-.container-agency .url-adres.caption {
+.container-xl .url-adres.caption {
   padding: 5px 9px;
   background-color: #F1F1F1;
   margin-top: 15px;
@@ -264,34 +254,34 @@
   -o-border-radius: 3px;
 }
 
-.container-agency .url-adres.caption:hover {
+.container-xl .url-adres.caption:hover {
   background-color: #FFEBD1;
 }
 
-.container-agency .url-adres.caption:active {
+.container-xl .url-adres.caption:active {
   color: #3D87DF;
   background-color: #F1F1F1;
 }
 
-.container-agency .container-agency .url-adres a {
+.container-xl .container-xl .url-adres a {
   display: inline;
   display: inline-block;
 
 }
 
-.container-agency .url-adres h6 {
+.container-xl .url-adres h6 {
   display: inline-flex;
   font-size: 16px;
   color: #FF7A0D;
 
 }
 
-.container-agency .url-adres .font-61-01 {
+.container-xl .url-adres .font-61-01 {
   display: inline;
   color: #D2D2D2;
 }
 
-.container-agency .url-adres {
+.container-xl .url-adres {
   border-top: 1px solid #D2D2D2;
   margin-top: 70px;
   padding-top: 20px;
