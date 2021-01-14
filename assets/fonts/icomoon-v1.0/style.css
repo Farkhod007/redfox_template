@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?dea8jq');
-  src:  url('fonts/icomoon.eot?dea8jq#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?dea8jq') format('truetype'),
-    url('fonts/icomoon.woff?dea8jq') format('woff'),
-    url('fonts/icomoon.svg?dea8jq#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?lk3x81');
+  src:  url('fonts/icomoon.eot?lk3x81#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?lk3x81') format('truetype'),
+    url('fonts/icomoon.woff?lk3x81') format('woff'),
+    url('fonts/icomoon.svg?lk3x81#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,74 +25,82 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.rf-Stroke:before {
-  content: "\e908";
-  color: #ff7300;
-}
-.rf-authors:before {
-  content: "\e900";
-  color: #a6a6a6;
-}
 .rf-hashtag:before {
-  content: "\e901";
-  color: #a6a6a6;
-}
-.rf-android:before {
   content: "\e902";
   color: #a6a6a6;
 }
-.rf-apple:before {
+.rf-authors:before {
   content: "\e903";
   color: #a6a6a6;
 }
-.rf-webdev:before {
+.rf-molecule:before {
   content: "\e904";
   color: #a6a6a6;
 }
-.rf-molecule:before {
+.rf-marketing:before {
   content: "\e905";
   color: #a6a6a6;
 }
-.rf-marketing:before {
-  content: "\e906";
-  color: #a6a6a6;
-}
 .rf-newspaper:before {
+  content: "\e906";
+  color: #ff7300;
+}
+.rf-arrow-right:before {
   content: "\e907";
   color: #ff7300;
 }
-.rf-X:before {
+.rf-arrow-bottom:before {
+  content: "\e908";
+  color: #ff7300;
+}
+.rf-android:before {
   content: "\e909";
-}
-.rf-Arrow-4-:before {
-  content: "\eb65";
-  color: #d2d2d2;
-}
-.rf-package:before {
-  content: "\eb64";
   color: #a6a6a6;
 }
+.rf-apple:before {
+  content: "\e90a";
+  color: #a6a6a6;
+}
+.rf-webdev:before {
+  content: "\e90b";
+  color: #a6a6a6;
+}
+.rf-arrow:before {
+  content: "\e90c";
+  color: #d2d2d2;
+}
 .rf-instagram:before {
-  content: "\eb63";
+  content: "\e90d";
   color: #a6a6a6;
 }
 .rf-print:before {
-  content: "\eb62";
+  content: "\e90e";
   color: #a6a6a6;
 }
-.rf-desktop:before {
-  content: "\eb61";
+.rf-package:before {
+  content: "\e90f";
   color: #a6a6a6;
 }
-.rf-vector:before {
-  content: "\eb60";
+.rf-webux:before {
+  content: "\e910";
+  color: #a6a6a6;
+}
+.rf-graphic:before {
+  content: "\e911";
   color: #a6a6a6;
 }
 .rf-pero:before {
-  content: "\eb5f";
+  content: "\e912";
   color: #a6a6a6;
 }
-.rf-paper:before {
-  content: "\1f5cc";
+.rf-naming:before {
+  content: "\e913";
   color: #ff7300;
+}
+.rf-search:before {
+  content: "\e900";
+  color: #ff7300;
+}
+.rf-burger:before {
+  content: "\e901";
 }
