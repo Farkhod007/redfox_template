@@ -59,6 +59,7 @@
   }
 }
 
+<<<<<<< HEAD
 
 @media (min-width: 1500px) {
   .container-xl {
@@ -69,4 +70,16 @@
 .container-xl {
   width: 832px;
   margin: auto;
+=======
+.container-narrow {
+  width: 832px;
+  margin: auto;
+}
+
+@media (min-width: 1500px) {
+  .container-narrow {
+      width: 832px;
+      margin: auto;
+  }
+>>>>>>> 8f08ec25a8b1e33d8c8af7fd99cf7d6e216919f8
 }

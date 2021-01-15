@@ -82,12 +82,12 @@ width: 650px;
 display: block;
 =======
 
-.nav .nav__list>li {
+.nav .nav__listli {
   margin-right: 40px;
 >>>>>>> 9bf45fa10608f4d543d4a552b63741fd72cf2b42:assets/css/agency-jamoa.css
 }
 
-.nav .nav__list>li:last-child {
+.nav .nav__listli:last-child {
   margin-right: 0;
 }
 <<<<<<< HEAD:assets/css/agency-team.css
@@ -136,11 +136,11 @@ display: block;
   margin-top: 180px;
 }
 
-.display-1>.display-1-yellow {
+.display-1.display-1-yellow {
   color: #FF7300;
 }
 
-.column-2>.display-1 p {
+.column-2.display-1 p {
   display: inline;
 }
 
@@ -184,7 +184,9 @@ display: block;
   height: 0;
   margin-top: 70px;
 }
+/* agency-layout ends */
 
+<<<<<<< HEAD:assets/css/agency-team.css
 <<<<<<< HEAD:assets/css/agency-team.css
   .header a {
       margin-top: 70px;
@@ -319,6 +321,8 @@ display: block;
 /*/////////////////////////////////////
 ////////////// agency-layout ends
 ///////////////////////////////////// */
+=======
+>>>>>>> 8f08ec25a8b1e33d8c8af7fd99cf7d6e216919f8:assets/css/agency-jamoa.css
 
 /* ////////////// group desktop starts //////////////*/
 

@@ -30,10 +30,10 @@
     display: flex;
     margin-right: 70px;
   }
-  .nav .nav__list > li {
+  .nav .nav__list  li {
     margin-right: 40px;
   }
-  .nav .nav__list > li:last-child {
+  .nav .nav__list  li:last-child {
     margin-right: 0;
   }
   .nav .nav__right button {
@@ -56,10 +56,10 @@
 .container .agensy-layout{
     margin-top: 180px;
 }
-.display-1 > .display-1-yellow{
+.display-1  .display-1-yellow{
     color:#FF7300;
 }
-.column-2 > .display-1 p{
+.column-2  .display-1 p{
     display: inline;
 }
 .column-2 span {
@@ -70,7 +70,7 @@ display: inline-block;
 width: 650px;
 margin-top: 33px;
 }
-.header > .tab-nav {
+.header  .tab-nav {
     display: block;
     margin-left: 0px;
     display: flex;
@@ -78,25 +78,25 @@ margin-top: 33px;
     margin-top: 70px;
   }
   
-  .tab-nav > li .active {
+  .tab-nav  li .active {
     border-bottom: 3px solid #FF7300;
     padding-bottom: 8px;
     margin-bottom: -3px;
     
   }
   
-  .header > .tab-nav li {
+  .header  .tab-nav li {
     margin-right: 40px;
   }
 
-  .column-2 > .header {
+  .column-2  .header {
     display: flex;
     justify-content: space-between;
     border-bottom: 3px solid #D2D2D2;
     padding-bottom: 8px;
   }
 
-  .column-2 > .header a {
+  .column-2  .header a {
       height: 0;
       margin-top: 70px;
   }
@@ -119,6 +119,7 @@ margin-top: 33px;
 /*/////////////////////////////////////
 ////////////// agency-group starts
 ///////////////////////////////////// */
+<<<<<<< HEAD
 @media (min-width: 1500px) {
     .container-agency {
         width: 832px;
@@ -131,6 +132,11 @@ margin-top: 33px;
 }
 .container-agency .agency-group{
 >>>>>>> 9bf45fa10608f4d543d4a552b63741fd72cf2b42:assets/css/agency.css
+=======
+
+
+.container-narrow .agency-group{
+>>>>>>> 8f08ec25a8b1e33d8c8af7fd99cf7d6e216919f8
     margin-bottom: 180px;
 }
 .agency-group .news-group{
@@ -139,23 +145,23 @@ margin-top: 33px;
 .agency-group .news-group h3{
     margin-top: 30px;
 }
-.news-group > .news{
+.news-group  .news{
     margin-top: 30px;
 }
-.news-group > .news > img {
+.news-group  .news  img {
     height: 107px;
     margin-top: 1.5px;
     margin-bottom: 1.5px;
 }
-.news-group > .news > h4{
+.news-group  .news  h4{
     display: inline;
     margin-top: -17px;
 }
-.news-group > .news > div > p{
+.news-group  .news  div  p{
     display: block;
     margin-top: 16px;
 }
-.news-group > .news > div{
+.news-group  .news  div{
     display: block;
     margin-top: -117px;
     margin-left: 203px;
