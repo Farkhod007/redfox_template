@@ -56,20 +56,21 @@
 .container .agensy-layout{
     margin-top: 180px;
 }
-.display-1-yellow{
+.display-1 > .display-1-yellow{
     color:#FF7300;
 }
-.display-1 p{
+.column-2 > .display-1 p{
     display: inline;
 }
-.display-1 {
+.column-2 span {
 width: 650px;
+display: inline-block;
 }
 .column-2 p{
 width: 650px;
 margin-top: 33px;
 }
-.tab-nav {
+.header > .tab-nav {
     display: block;
     margin-left: 0px;
     display: flex;
@@ -77,31 +78,29 @@ margin-top: 33px;
     margin-top: 70px;
   }
   
-  .tab-nav >li .active {
+  .tab-nav > li .active {
     border-bottom: 3px solid #FF7300;
     padding-bottom: 8px;
     margin-bottom: -3px;
     
   }
   
-  .tab-nav li {
+  .header > .tab-nav li {
     margin-right: 40px;
   }
 
-  .header {
+  .column-2 > .header {
     display: flex;
     justify-content: space-between;
     border-bottom: 3px solid #D2D2D2;
     padding-bottom: 8px;
   }
 
-  .header a {
+  .column-2 > .header a {
       height: 0;
-  }
-
-  .header a {
       margin-top: 70px;
   }
+<<<<<<< HEAD:assets/css/agency-jobs.css
   /* Agency-layout ends    */
   
 /*/////////////////////////////////////
@@ -110,12 +109,34 @@ margin-top: 33px;
 
 
 .agency-group{
+=======
+
+
+/*/////////////////////////////////////
+////////////// agency-layout ends
+///////////////////////////////////// */
+
+/*/////////////////////////////////////
+////////////// agency-group starts
+///////////////////////////////////// */
+@media (min-width: 1500px) {
+    .container-agency {
+        width: 832px;
+        margin: auto;
+    }
+}
+.container-agency {
+    width: 832px;
+    margin: auto;
+}
+.container-agency .agency-group{
+>>>>>>> 9bf45fa10608f4d543d4a552b63741fd72cf2b42:assets/css/agency.css
     margin-bottom: 180px;
 }
-.news-group{
+.agency-group .news-group{
     margin-top: 70px;
 }
-.news-group h3{
+.agency-group .news-group h3{
     margin-top: 30px;
 }
 .news-group > .news{
