@@ -6,6 +6,16 @@
   list-style-type: none;
 }
 
+<<<<<<< HEAD
+=======
+@media (min-width: 1500px) {
+  .container-agency {
+    width: 832px;
+    margin: auto;
+  }
+}
+
+>>>>>>> adb20870b471d34a87fe3c8e40332042d4938f1a
 /*/////////////////////////////////////////////////////////
  ///////////  Navbar starts
  ////////////////////////////////////////////////////////*/
@@ -32,11 +42,19 @@
   margin-right: 70px;
 }
 
+<<<<<<< HEAD
 .nav .nav__list li {
   margin-right: 40px;
 }
 
 .nav .nav__list li:last-child {
+=======
+.nav .nav__listli {
+  margin-right: 40px;
+}
+
+.nav .nav__listli:last-child {
+>>>>>>> adb20870b471d34a87fe3c8e40332042d4938f1a
   margin-right: 0;
 }
 
@@ -61,8 +79,17 @@
 /*/////////////////////////////////////
 ////////////// agency-header starts
 ///////////////////////////////////// */
+<<<<<<< HEAD
 
 .agency-header {
+=======
+.container-agency {
+  width: 832px;
+  margin: auto;
+}
+
+.container-agency .agency-header {
+>>>>>>> adb20870b471d34a87fe3c8e40332042d4938f1a
   margin-top: 180px;
 }
 
@@ -84,7 +111,11 @@
 ////////////// vacancy starts
 ///////////////////////////////////// */
 
+<<<<<<< HEAD
 .vacancy {
+=======
+.container .vacancy {
+>>>>>>> adb20870b471d34a87fe3c8e40332042d4938f1a
   margin-top: 16px;
   margin: auto;
 }
@@ -112,7 +143,11 @@
   margin-top: 30px;
 }
 
+<<<<<<< HEAD
 .agency-layout .column-2 {
+=======
+.column-2 {
+>>>>>>> adb20870b471d34a87fe3c8e40332042d4938f1a
   margin-top: 70px;
 }
 
@@ -122,6 +157,10 @@
   margin-top: 15px;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> adb20870b471d34a87fe3c8e40332042d4938f1a
 .agency-layout .column-3 {
   margin-top: 70px;
   display: grid;
@@ -157,12 +196,20 @@
   margin-top: 70px;
 }
 
+<<<<<<< HEAD
 .container .agency-image h2 {
+=======
+.agency-image h2 {
+>>>>>>> adb20870b471d34a87fe3c8e40332042d4938f1a
   width: 832px;
   margin: auto;
 }
 
+<<<<<<< HEAD
 .container .agency-image .agency-layout-image {
+=======
+.agency-image .agency-layout-image {
+>>>>>>> adb20870b471d34a87fe3c8e40332042d4938f1a
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -174,7 +221,11 @@
 /*/////////////////////////////////////
 ////////////// hash-tag starts
 //////////////////////////////////S/// */
+<<<<<<< HEAD
 .container-narrow .hash-tag .caption {
+=======
+.container-agency .hash-tag .caption {
+>>>>>>> adb20870b471d34a87fe3c8e40332042d4938f1a
   padding: 5px 9px;
   background-color: #F1F1F1;
   margin-top: 15px;
@@ -187,51 +238,84 @@
   -o-border-radius: 3px;
 }
 
+<<<<<<< HEAD
 .container-narrow .hash-tag a {
+=======
+.container-agency .hash-tag a {
+>>>>>>> adb20870b471d34a87fe3c8e40332042d4938f1a
   display: inline;
   display: inline-block;
 
 }
 
+<<<<<<< HEAD
 .container-narrow .hash-tag h6 {
+=======
+.container-agency .hash-tag h6 {
+>>>>>>> adb20870b471d34a87fe3c8e40332042d4938f1a
   display: inline-flex;
   font-size: 16px;
   color: #FF7A0D;
 
 }
 
+<<<<<<< HEAD
 .container-narrow .hash-tag .font-61-01 {
+=======
+.container-agency .hash-tag .font-61-01 {
+>>>>>>> adb20870b471d34a87fe3c8e40332042d4938f1a
   display: inline;
   color: #D2D2D2;
 }
 
+<<<<<<< HEAD
 .container-narrow .hash-tag {
+=======
+.container-agency .hash-tag {
+>>>>>>> adb20870b471d34a87fe3c8e40332042d4938f1a
   border-top: 1px solid #D2D2D2;
   margin-top: 70px;
   padding-top: 20px;
 }
 
+<<<<<<< HEAD
 .container-narrow .data {
+=======
+.container-agency .data {
+>>>>>>> adb20870b471d34a87fe3c8e40332042d4938f1a
   margin-top: 70px;
   width: auto;
   height: auto;
 }
 
+<<<<<<< HEAD
 .container-narrow .data img {
+=======
+.container-agency .data img {
+>>>>>>> adb20870b471d34a87fe3c8e40332042d4938f1a
   width: 64px;
   height: 64px;
   margin-top: 10px;
   border-radius: 163.391px;
   border: 5px solid#F1F1F1;
 }
+<<<<<<< HEAD
 
 .container-narrow .data div p {
+=======
+/*///////data starts////*/
+.data div p {
+>>>>>>> adb20870b471d34a87fe3c8e40332042d4938f1a
 
   margin-top: 7px;
   color: #FF7300;
 }
 
+<<<<<<< HEAD
 .container-narrow .data div {
+=======
+.container-agency .data div {
+>>>>>>> adb20870b471d34a87fe3c8e40332042d4938f1a
   display: block;
   margin-top: -57px;
   margin-left: 82px;
@@ -239,7 +323,11 @@
 }
 
 
+<<<<<<< HEAD
 .container-narrow .url-adres .caption {
+=======
+.container-agency .url-adres.caption {
+>>>>>>> adb20870b471d34a87fe3c8e40332042d4938f1a
   padding: 5px 9px;
   background-color: #F1F1F1;
   margin-top: 15px;
@@ -252,34 +340,58 @@
   -o-border-radius: 3px;
 }
 
+<<<<<<< HEAD
 .container-narrow .url-adres .caption:hover {
   background-color: #FFEBD1;
 }
 
 .container-narrow .url-adres .caption:active {
+=======
+.container-agency .url-adres.caption:hover {
+  background-color: #FFEBD1;
+}
+
+.container-agency .url-adres.caption:active {
+>>>>>>> adb20870b471d34a87fe3c8e40332042d4938f1a
   color: #3D87DF;
   background-color: #F1F1F1;
 }
 
+<<<<<<< HEAD
 .container-narrow .url-adres a {
+=======
+.container-agency .container-agency .url-adres a {
+>>>>>>> adb20870b471d34a87fe3c8e40332042d4938f1a
   display: inline;
   display: inline-block;
 
 }
 
+<<<<<<< HEAD
 .container-narrow .url-adres h6 {
+=======
+.container-agency .url-adres h6 {
+>>>>>>> adb20870b471d34a87fe3c8e40332042d4938f1a
   display: inline-flex;
   font-size: 16px;
   color: #FF7A0D;
 
 }
 
+<<<<<<< HEAD
 .container-narrow .container-narrow .url-adres .font-61-01 {
+=======
+.container-agency .url-adres .font-61-01 {
+>>>>>>> adb20870b471d34a87fe3c8e40332042d4938f1a
   display: inline;
   color: #D2D2D2;
 }
 
+<<<<<<< HEAD
 .container-narrow .url-adres {
+=======
+.container-agency .url-adres {
+>>>>>>> adb20870b471d34a87fe3c8e40332042d4938f1a
   border-top: 1px solid #D2D2D2;
   margin-top: 70px;
   padding-top: 20px;
@@ -300,12 +412,17 @@
 .jobs-interesting .container {
   margin-top: 120px;
 }
+<<<<<<< HEAD
 .jobs-interesting .container .blocks {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 30px;
 }
 .blocks .interesting-block {
+=======
+
+ .container .blocks .interesting-block {
+>>>>>>> adb20870b471d34a87fe3c8e40332042d4938f1a
   margin-top: 30px;
 }
 
@@ -313,14 +430,22 @@
   margin-top: 18px;
 }
 
+<<<<<<< HEAD
  .interesting-block .reference .text {
+=======
+.interesting-block .reference .text {
+>>>>>>> adb20870b471d34a87fe3c8e40332042d4938f1a
   display: block;
   margin-top: -47px;
   margin-left: 82px;
 
 }
 
+<<<<<<< HEAD
 .interesting-block .reference .text p {
+=======
+.reference .text p {
+>>>>>>> adb20870b471d34a87fe3c8e40332042d4938f1a
   margin-top: 5px;
 }
 
@@ -332,7 +457,15 @@
   -o-border-radius: 163px;
 }
 
+<<<<<<< HEAD
 
+=======
+.jobs-interesting .container .blocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+}
+>>>>>>> adb20870b471d34a87fe3c8e40332042d4938f1a
 
 /*/////////////////////////////////////
 ////////////// jobs-interesting ends
