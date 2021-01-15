@@ -58,3 +58,15 @@
     width: 1404px;
   }
 }
+
+.container-narrow {
+  width: 832px;
+  margin: auto;
+}
+
+@media (min-width: 1500px) {
+  .container-narrow {
+      width: 832px;
+      margin: auto;
+  }
+}
