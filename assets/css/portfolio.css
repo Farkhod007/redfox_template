@@ -860,25 +860,25 @@
 
 /* //////////////////project starts desktop starts /////////////////////////////*/
 
-.project {
+.projects {
   margin-top: 70px;
   background-color: #F9F9F9;
   border-top: 1px solid white;
   height: 659px;
 }
 
-.project .container {
+.projects .container {
   margin-top: 18px;
   grid-template-columns: auto auto auto;
   display: grid;
 }
 
-.project h3 {
+.projects h3 {
   margin-top: 120px;
   margin-left: 18px;
 }
 
-.project .container div {
+.projects .container div {
   height: 277px;
   border: 1px solid white;
   display: inline-block;
@@ -886,28 +886,28 @@
   row-gap: 18px;
 }
 
-.project-image-1 {
+.projects .image-1 {
   background-color: white;
 }
 
-.project-image-1 img {
+.projects .image-1 img {
   margin: 110px 0px 105px 151px;
 }
 
-.project-image-2 {
+.projects .image-2 {
   background-color: #01468D;
   ;
 }
 
-.project-image-2 img {
+.projects .image-2 img {
   margin: 110px 0px 105px 151px;
 }
 
-.project-image-3 {
+.projects .image-3 {
   background-color: white;
 }
 
-.project-image-3 img {
+.projects .image-3 img {
   margin: 110px 0px 105px 151px;
 }
 
