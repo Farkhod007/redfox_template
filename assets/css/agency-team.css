@@ -50,7 +50,7 @@
 .container{
     margin-left: auto;
 }
-.agensy-layout{
+.agency-layout{
     margin-top: 180px;
 }
 .display-1-yellow{
@@ -74,7 +74,7 @@ margin-top: 33px;
     margin-top: 70px;
   }
   
-  .tab-nav >li .active {
+  .tab-nav  li .active {
     border-bottom: 3px solid #FF7300;
     padding-bottom: 8px;
     margin-bottom: -3px;
@@ -137,12 +137,10 @@ margin-top: 33px;
     line-height: 4px;
   }
   
-  .column-2>body {
+  .column-2 .body-1 {
     line-height: 23px;
   
   }
-  
-  .data {}
   
   .heading .body-2-01 {
     display: inline-block;
