@@ -81,20 +81,6 @@
   .nav_close {
     display: inline;
   }
-
-  /* body{
-      position: relative;
-      background-color:#F9F9F9;
-    }
-    .bg_grey::before{
-      content: "";
-      background-color: #ffffff;
-      width: 100%;
-      height: 160px;
-      position: absolute;
-      top: -20px;
-      z-index: -1;
-    } */
 }
 
 /* Navbar ends    */
@@ -142,7 +128,7 @@
 /* Dropdown ends */
 
 /*/////////////////////////////////////////////////////////
-   ///////////  About starts
+   ///////////  Head starts
    ////////////////////////////////////////////////////////*/
 
 body {
@@ -187,7 +173,7 @@ body {
 @media (max-width: 1200px) {
   .head-items::before {
     content: "";
-    position: absolute;
+    position: absolute; 
     background: #F1F1F1;
     width: 100%;
     max-width: 388px;
@@ -234,7 +220,7 @@ body {
     margin-bottom: 25px;
   }
 }
-/* about ends  */
+/* head ends  */
 
 /*///////////////////////////////////////////
  /////////////// Blog starts ////////////////////
