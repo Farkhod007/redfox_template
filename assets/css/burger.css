@@ -228,7 +228,7 @@
       margin-top: 0;
     }
     .blocks {
-      width: auto;
+      width: 100%;
       height: auto;
       display: flex;
       margin-bottom: 30px; 
