@@ -19,6 +19,11 @@
 @media (min-width: 1200px) {
   .container {
     width: 1146px;
+    
+  }
+  .container_agency{
+    width: 1110px;
+    margin: auto;
   }
 }
 
