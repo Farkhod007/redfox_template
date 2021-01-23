@@ -21,10 +21,6 @@
     width: 1146px;
     
   }
-  .container_agency{
-    width: 1110px;
-    margin: auto;
-  }
 }
 
 @media (min-width: 1500px) {
@@ -50,6 +46,7 @@
   .container-wider {
     width: 768px;
   }
+  
 }
 
 @media (min-width: 1200px) {
