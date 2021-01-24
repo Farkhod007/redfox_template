@@ -86,6 +86,7 @@
 
 
 
+
 .user-img1{
     height: 170px;
     width: 170px;
@@ -96,6 +97,7 @@
     width: 93px;
     border-radius: 50%;
 }
+
 
 /*/////////////////////////////////// Img components END//////////////////////////////// */
 
@@ -147,6 +149,7 @@
     font-weight: 500;
     line-height: 19px;
 }
+ 
 
 /*/////////////////////////////////// TXT components END//////////////////////////////// */
 
@@ -181,3 +184,103 @@
 }
 
 /*/////////////////////////////////// color omponents END//////////////////////////////// */
+
+
+
+
+
+/* /////////////Tablet Components//////////////// */
+@media screen and (max-width:1200px){
+
+    /*////////////////////////////// margin compeoents //////////////////////////*/
+
+    .mg-r2{
+        margin-right: 6px;
+    }
+    .mg-r3{
+        margin-right:20px;
+    }
+
+
+
+
+    
+    .mg-tp5{
+        margin-top: 50px;
+    }
+    .mg-tp50{
+        margin-top:50px ;
+    }
+    .mg-tp8{
+       margin-top: 15px; 
+    }
+.mg-tp2{
+    margin-top: 10px;
+}
+.mg-tp0{
+    margin-top:0px;
+}
+    
+ /*////////////////////////////// margin compeoents ends//////////////////////////*/*/
+
+
+
+
+ /*///////////////////////////////////  Img components//////////////////////////////// */
+
+.img2{
+    height: 217px;
+    width: 374px;
+}
+
+
+.user-img1{
+    height: 129px;
+    width: 129px;
+}
+.user-img2{
+    height: 53px;   
+    width: 53px;
+}
+
+ /*///////////////////////////////////  Img components end//////////////////////////////// */
+
+
+
+ /*/////////////////////////////// TXT componets /////////////////////////////////////////*/
+
+ .txt3{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+}
+.txt4{
+    font-weight: bold;
+}
+.txt1{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    
+}
+.txt6{
+    font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+}
+.txt5{
+font-size: 20px;
+line-height: 24px;
+}
+.txt7{
+    font-size: 16px;
+line-height: 28px;
+}
+.txt8{
+    font-size: 20px;
+    line-height: 24px;
+}
+ /*/////////////////////////////// TXT componets end/////////////////////////////////////////*/
+
+}
+/* /////////////Tablet Components//////////////// */

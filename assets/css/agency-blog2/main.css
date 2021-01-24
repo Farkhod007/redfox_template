@@ -4,7 +4,6 @@
 
 
 
-
 /* /////////////////////////////////header_box //////////////////////////////*/
 
 .user_box{
@@ -59,6 +58,19 @@ margin-top: 5px;
     transition: all 0.3s ease;
     
 }
+.hashtag2{
+    display: none;
+}
+.info1-md{
+    width: 350px;
+    height: 93px; 
+    overflow: hidden;
+  }
+  .info2-md {
+    width: 350px;
+    height: 96px;
+    overflow: hidden;
+  }
 
 /* ////////////////////////////////section_box1  end///////////////////////////////*/
 

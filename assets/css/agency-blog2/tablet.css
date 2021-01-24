@@ -1,7 +1,11 @@
 @media screen and (max-width: 1200px){
     /*////////////////////////// Header /////////////////////////*/
 
-
+    .txt4 {
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 36px;
+    }
 
     /*////////////////////////// Header end/////////////////////////*/
 
@@ -20,8 +24,35 @@
 
 
   /*//////////////////////////SectionBox1 /////////////////////////*/
+  .img1{
+    height: 276.53466796875px;
+    width: 490px; 
+    border-radius: 5px;
+} 
+.hashtag2{
+  display: block  ;
+}
+.info1-md{
+  height: 72px;
 
+}
+.info2-md {
+height: 56px;
+overflow: hidden;
+}
+.info1-md-1{
+  height: 72px;
+width: 258px;
+overflow: hidden;
 
+}
+.info2-md-2{
+  height: 56px;
+  width: 258px;
+  
+overflow: hidden;
+
+}
 
     /*//////////////////////////section box 1 end/////////////////////////*/
 
@@ -30,11 +61,12 @@
 
 
     /*//////////////////////////sectionbox2  /////////////////////////*/
-
+.section_box2{
+  grid-template-columns: repeat(2, 3fr);
+}
 
 
     /*//////////////////////////section box 2 end/////////////////////////*/
-
 
 
 

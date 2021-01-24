@@ -1,4 +1,4 @@
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 816px){
     /*////////////////////////// Header /////////////////////////*/
 
 
@@ -6,12 +6,60 @@
     /*////////////////////////// Header end/////////////////////////*/
 
 
-
+    .user-img1{
+      height: 60px;
+      width:60px;
+  }
+  .user-img2{
+      height: 53px;
+      width: 53px;
+  }
+  .txt4{
+  font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+  }
+  .txt3{
+    font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+  }
+  .mg-tp5{
+    margin-top: 30px;
+  }
 
     
     /*//////////////////////////Navbar2 /////////////////////////*/
-
-
+.nav_2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.03);
+  height: 69px;
+}
+  .nav_2  .mg-r4{
+    margin-right: 10px;
+  }
+  .item{
+    margin-top: auto;
+  }
+   .link{
+     width: 100%;
+    padding: 10px 15px;
+    border-radius: 5px; 
+    border :none;
+  }
+  .link:hover, .link:focus{
+    background-color: #ff7300;
+    color: white!important;
+    border:none!important;
+  }
+  .txt2{
+  font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+  }
 
     /*//////////////////////////Navbar2 end/////////////////////////*/
 
@@ -21,6 +69,8 @@
 
   /*//////////////////////////SectionBox1 /////////////////////////*/
 
+
+  
 
 
     /*//////////////////////////section box 1 end/////////////////////////*/
