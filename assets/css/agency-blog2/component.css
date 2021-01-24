@@ -1,0 +1,183 @@
+
+/* //////////////////////////////////////////Display components /////////////////////////////////////*/
+
+.d-bk{
+    display: block;
+}
+.d-inl{
+    display: inline;
+}
+
+
+
+.df-row{
+    display: flex;
+    flex-direction: row;
+}
+.df-col{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/*////////////////////////////////////////// Display components ///////////////////////////////////*/
+
+
+/*////////////////////////////////////// Margin components /////////////////////////////////////////// */
+
+
+.mg-r1{
+    margin-right: 4px;
+}
+.mg-r2{
+    margin-right: 9px;
+}
+.mg-r3{
+    margin-right: 30px;
+}
+.mg-r4{
+    margin-right: 40px;
+}
+
+
+
+.mg-tp1{
+    margin-top: 2px;
+}
+.mg-tp2{
+    margin-top: 16px;
+}
+.mg-tp3{
+    margin-top: 18px;
+}
+.mg-tp4{
+    margin-top: 30px;
+}
+.mg-tp5{
+    margin-top: 70px;
+}
+.mg-tp6{
+    margin-top: 120px;
+}
+.mg-tp7{
+    margin-top: 180px;
+}
+
+
+
+/*////////////////////////////////////// Margin components  END/////////////////////////////////////////// */
+
+/*///////////////////////////////////  Img components//////////////////////////////// */
+
+
+.img1{
+    width: 730px;
+    height: 413px;
+    border-radius: 5px;
+}
+.img2{
+    width: 350px;
+    height: 203px;
+    border-radius: 5px;
+}
+
+
+
+
+.user-img1{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+}
+.user-img2{
+    height: 93px;
+    width: 93px;
+    border-radius: 50%;
+}
+
+/*/////////////////////////////////// Img components END//////////////////////////////// */
+
+
+/*/////////////////////////////////// TXT components//////////////////////////////// */
+
+.txt1{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+}
+.txt2{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.txt3{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.txt4{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+}
+.txt5{
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 31px;
+}
+.txt6{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+}
+.txt7{
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 32px;
+}
+.txt8{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+}
+.txt9{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+/*/////////////////////////////////// TXT components END//////////////////////////////// */
+
+
+
+
+
+/*/////////////////////////////////// color components //////////////////////////////// */
+
+.color1{
+    color: #1c1c1f;
+}
+.color2{
+    color: #ff7300;
+}
+.color3{
+    color: #a6a6a6;
+}
+.color4{
+    color: #828282;
+}
+.color5{
+    color: #3D3D3D;
+}
+.color{
+    color: #BDBDBD;
+}
+
+
+.bg1{
+    background-color: #f1f1f1;
+}
+
+/*/////////////////////////////////// color omponents END//////////////////////////////// */
