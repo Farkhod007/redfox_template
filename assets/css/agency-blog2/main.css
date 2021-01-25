@@ -1,7 +1,17 @@
 *{
- font-family: 'inter', Courier, monospace;
+ font-family: 'inter';
+ outline: none;
 }
 
+.hashtag3{
+    display: none;
+}
+.hashtag4{
+    display: none;
+}
+.mobile_box1, .mobile_box2{
+    display: none;
+}
 
 
 /* /////////////////////////////////header_box //////////////////////////////*/

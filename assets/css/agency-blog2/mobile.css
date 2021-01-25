@@ -1,109 +1,223 @@
-@media screen and (max-width: 816px){
-    /*////////////////////////// Header /////////////////////////*/
+@media screen and (max-width: 816px) {
+  /*////////////////////////// Header /////////////////////////*/
 
-
-
-    /*////////////////////////// Header end/////////////////////////*/
-
-
-    .user-img1{
-      height: 60px;
-      width:60px;
+  .container {
+    width: 343px;
   }
-  .user-img2{
-      height: 53px;
-      width: 53px;
+
+  /*/ ///////////////////////// Header end/////////////////////////*/
+
+  .user-img1 {
+    height: 60px;
+    width: 60px;
   }
-  .txt4{
-  font-weight: bold;
-font-size: 24px;
-line-height: 29px;
+  .user-img2 {
+    height: 44px;
+    width: 44px;
   }
-  .txt3{
+  .txt4 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .txt3 {
     font-weight: normal;
-font-size: 14px;
-line-height: 17px;
+    font-size: 14px;
+    line-height: 17px;
   }
-  .mg-tp5{
+  .mg-tp5 {
     margin-top: 30px;
   }
 
-    
-    /*//////////////////////////Navbar2 /////////////////////////*/
-.nav_2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: none;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.03);
-  height: 69px;
-}
-  .nav_2  .mg-r4{
+  /*//////////////////////////Navbar2 /////////////////////////*/
+  .nav_2 {
+    display: flex;
+    align-items: center;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.03);
+    height: 69px;
+    overflow-y:auto;
+  }
+  .nav_2 .mg-r4 {
     margin-right: 10px;
   }
-  .item{
+  .item {
     margin-top: auto;
   }
-   .link{
-     width: 100%;
+  .nav_2 li .link {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    width: 100%;
     padding: 10px 15px;
-    border-radius: 5px; 
-    border :none;
+    border-radius: 5px;
+    border: none;
+   
   }
-  .link:hover, .link:focus{
+  .link:hover,
+  .link:focus {
     background-color: #ff7300;
-    color: white!important;
-    border:none!important;
+    color: white !important;
+    border: none !important;
   }
-  .txt2{
-  font-weight: normal;
-font-size: 16px;
-line-height: 19px;
+  .txt2 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
   }
 
-    /*//////////////////////////Navbar2 end/////////////////////////*/
-
-
-
-
+  /*/ /////////////////////////Navbar2 end/////////////////////////*/
 
   /*//////////////////////////SectionBox1 /////////////////////////*/
 
+  .img1 {
+    height: 195px;
+    width: 343px;
+    left: 16px;
+    top: 350px;
+    border-radius: 5px;
+  }
+  .section_box1 {
+    display: flex;
+    flex-direction: column;
+  }
+ .section_box1 .hashtag2 {
+    display: none;
+  }
+  .section_box1 .user-img2{
+    margin-top: 10px;
+  }
+  .img{
+margin-top: 10px;
+  }
+  .section_box1 
+  .section_box1 .hashtag3{
+    display: block;
+  }
+  .section_box1 .txt1{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  }
+  .section_box1 .txt6{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .section_box1 .info1-md-1{
+    height: 38px;
+    width: 343px;
+    font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+  }
+  .section_box1 .info2-md-2{
+    height:  34px;
+    width: 343px;
+    font-size: 14px;
+    line-height: 17px;  
+  }
+  .mg-tp3{
+    margin-top: -5px;
+  }
+  .section_box1 .info_btn{
+    font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+  }
+  /*/ /////////////////////////section box 1 end/////////////////////////*/
 
-  
+  /*//////////////////////////sectionbox2  /////////////////////////*/
+.section_box2{
+  grid-template-columns: auto;
+}
+.section_box2  .img2{
+  height: 82px;
+  width: 110px;
+  margin-top: 0;
+}
+.section_box2 .box .hastag1{
+  display: none;
+}
+.section_box2 .user_box, .section_box2 .info_btn{
+display: none;
+}
+.section_box2 .box{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.hashtag4{
+  display: block;
+}
+.section_box2 .box .info_block2.mg-tp3{
+  margin-top: 0;
+}
+.section_box2 .box .info_block2 .hashtag4{
+  font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+margin-top: -6px;
+}
+.section_box2 .box .info2-md{
+  margin-top: 5px;
+}
+.section_box2 .box .info1-md{
+  margin-top: 5px;
+}
+.section_box2 .box:nth-child(1) .info2-md ,.section_box2 .box:nth-child(4) .info2-md {
+display: none;
+}
+.section_box2 .box:nth-child(1) .info1-md,.section_box2 .box:nth-child(4) .info1-md{
+  width: 217px;
+height: 60px;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+}
+.section_box2 .box:nth-child(2) .info1-md,.section_box2 .box:nth-child(5) .info1-md  {
+  width: 217px;
+  height: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+.section_box2 .box:nth-child(2) .info2-md,.section_box2 .box:nth-child(5) .info2-md{
+  width: 217px;
+  height: 38px;
+  font-size: 12px;
+  line-height: 19px;
+}
+
+.section_box2 .box:nth-child(3) .info1-md, .section_box2 .box:nth-child(6) .info1-md  {
+  width: 217px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.section_box2 .box:nth-child(3) .info2-md, .section_box2 .box:nth-child(6) .info2-md{
+  width: 217px;
+  height: 19px;
+  font-size: 12px;
+  line-height: 19px;
+}
 
 
-    /*//////////////////////////section box 1 end/////////////////////////*/
+  /*/ /////////////////////////section box 2 end/////////////////////////*/
 
+  /*///////////////////////////////// Mobile_boxes///////////////////////////////////  */
 
+.mobile_box1,.mobile_box2{
+  display: block;
+}
+.mobile_box1 .hashtag3, .mobile_box1 .img{
+  display: none;
+}
 
+/*/ //////////////////////////////// Mobile_boxes end///////////////////////////////////  */
 
+  /*//////////////////////////sectionbox3  /////////////////////////*/
 
-    /*//////////////////////////sectionbox2  /////////////////////////*/
-
-
-
-    /*//////////////////////////section box 2 end/////////////////////////*/
-
-
-
-
-
-    /*//////////////////////////sectionbox3  /////////////////////////*/
-
-
-
-    /*//////////////////////////section box 3 end/////////////////////////*/
-    
-
-
-
-
-    /*//////////////////////////sectionbox4 /////////////////////////*/
-
-
-
-    /*//////////////////////////section box 4 end/////////////////////////*/
-
-
+  /*/ /////////////////////////section box 3 end/////////////////////////*/
 }
