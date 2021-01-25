@@ -1,508 +1,554 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lovers+Quarrel&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=PT+Serif:wght@700&display=swap");
-
 :root {
-  font-family: "intern,  'Merriweather', PT Serif, serif  ";
+    font-family: "intern,  'Merriweather', PT Serif, serif  ";
 }
+
 
 /* /////////////////////////////////////// ///////////////////////
 /////////////////////////////// display starts //////////////
 /////////////////////////////////*/
+
 .display-1 {
-  font-family: "Inter";
-  font-size: 65px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 79px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #1c1c1f;
+    font-family: "Inter";
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 79px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1c1c1f;
 }
 
 .display-2 {
-  font-family: "Inter";
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 58px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #1c1c1f;
+    font-family: "Inter";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1c1c1f;
 }
+
+
 /* display ends  */
+
 
 /* //////////////////////////// header-starts ////////////////////////////////*/
 
 .header-1 {
-  font-family: "Inter";
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 36px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #1c1c1f;
+    font-family: "Inter";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1c1c1f;
 }
 
 .header-2 {
-  font-family: "Inter";
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 34px;
-  color: #1c1c1f;
+    font-family: "Inter";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    color: #1c1c1f;
 }
 
 .header-3 {
-  font-family: "Inter";
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 31px;
-  color: #1c1c1f;
+    font-family: "Inter";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31px;
+    color: #1c1c1f;
 }
-.header-yellow
- {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 26px;
-  line-height: 31px;
-  color: #ff7300;
+
+.header-yellow {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 31px;
+    color: #ff7300;
 }
 
 .header-4 {
-  font-family: "Inter";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 29px;
-  color: #1c1c1f;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px;
+    color: #1c1c1f;
 }
 
 .header-5 {
-  font-family: "Inter";
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 27px;
-  color: #1c1c1f;
+    font-family: "Inter";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    color: #1c1c1f;
 }
+
+
 /* header ends  */
+
 
 /* //////////////////////////////////////
 //////////////////// inter starts////////////////////////////////////////////////////
 ///////////////////////// */
+
 .body-yellow {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 64px;
-  line-height: 77px;
-  color: #FF7300;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FF7300;
 }
+
 .body-01 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
-  color: #8c8c8c;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8c8c8c;
 }
+
 .body-01-2 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
-  color: #1c1c1f;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1c1c1f;
 }
+
 .body-1 {
-  font-family: "Inter";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #a6a6a6;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #a6a6a6;
 }
+
 .body-1-03 {
-  font-family: "Inter";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #1c1c1f;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1c1c1f;
 }
+
 .font-00 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  color: #ff7300;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ff7300;
 }
+
 .font-61 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 32px;
-  color: #3d3d3d;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #3d3d3d;
 }
+
 .li,
 .caption {
-  color: #1c1c1f;
-  font-family: "Inter";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
+    color: #1c1c1f;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
 }
 
 .font-61-01 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  color: #3d3d3d;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #3d3d3d;
 }
+
 .font-00-02 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 19px;
-  color: #ffffff;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
 }
+
 .font-61-02 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-  color: #ff7300;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ff7300;
 }
 
 .body-2 {
-  font-family: "Inter";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 22px;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: #ff7300;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #ff7300;
 }
+
 .body-2-00 {
-  font-family: "Inter";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  color: #3b4254;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #3b4254;
 }
+
 .body-2-01 {
-  font-family: "Inter";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 22px;
-  color: #1c1c1f;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    color: #1c1c1f;
 }
 
 .body-3 {
-  font-family: "Inter";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 19px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #ffffff;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
 }
+
 .body-4 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 19px;
-  color: #1c1c1f;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1c1c1f;
 }
+
 .body-0101 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 16px;
-  color: #1c1c1f;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #1c1c1f;
 }
+
 .body-5 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 22px;
-  color: #1c1c1f;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1c1c1f;
 }
+
 .body-5-02 {
-  font-family: "Inter";
-  font-style: italic;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 22px;
-  color: #1c1c1f;
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1c1c1f;
 }
+
 .body-5-03 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 22px;
-  color: #1c1c1f;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1c1c1f;
 }
+
 .body-5-04 {
-  font-family: "Inter";
-  font-style: italic;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 22px;
-  color: #1c1c1f;
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1c1c1f;
 }
 
 .body-7-01 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 17px;
-  color: #3d3d3d;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3d3d3d;
 }
+
 .body-7-02 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 17px;
-  color: #a6a6a6;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #a6a6a6;
 }
 
 .body-7 {
-  font-family: "Inter";
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 16px;
+    font-family: "Inter";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
 }
+
 .body-8 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #d2d2d2;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #d2d2d2;
 }
+
 .body-8-01 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #626468;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #626468;
 }
+
 .body-8-02 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 16px;
-  color: #1c1c1f;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #1c1c1f;
 }
 
 .body-9 {
-  font-family: "Inter";
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 15px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #3d3d3d;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3d3d3d;
 }
+
 .body-9-01 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 15px;
-  color: #a6a6a6;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #a6a6a6;
 }
 
 .body-10 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 10px;
-  line-height: 12px;
-  color: #8c8c8c;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #8c8c8c;
 }
 
+
 /* ///inter shrift ends ///*/
+
 
 /* /////////////////////////////////////// ///////////////////////
 /////////////////////////////// Merriweather  starts //////////////
 /////////////////////////////////////////////////////////////////*/
 
 .bold-01 {
-  font-family: "Merriweather";
-  font-style: italic;
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 35px;
-  color: #1c1c1f;
+    font-family: "Merriweather";
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 35px;
+    color: #1c1c1f;
 }
 
 .bold-02 {
-  font-family: "Merriweather";
-  font-size: 18px;
-  font-style: italic;
-  font-weight: 700;
-  line-height: 30px;
-  color: #1c1c1f;
+    font-family: "Merriweather";
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 30px;
+    color: #1c1c1f;
 }
 
 .bold-03 {
-  font-family: "Merriweather";
-  font-size: 14px;
-  font-style: italic;
-  font-weight: 700;
-  line-height: 22px;
-  color: #1c1c1f;
+    font-family: "Merriweather";
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 22px;
+    color: #1c1c1f;
 }
+
 
 /* /////////////////////////////////////// ///////////////////////
 /////////////////////////////// Merriweather ends //////////////
 //////////////////////////////////////////////////////////////*/
 
+
 /* /////////////////////////////////////// ///////////////////////
 /////////////////////////////// Lovers Quarrel starts //////////////
 /////////////////////////////////////////////////////////////////*/
+
 .font-lovers {
-  font-family: "Lovers Quarrel";
-  font-size: 153px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 172px;
-  color: #ffa959;
+    font-family: "Lovers Quarrel";
+    font-size: 153px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 172px;
+    color: #ffa959;
 }
+
 
 /* /////////////////////////////////////// ///////////////////////
 /////////////////////////////// Lovers Quarrel ends //////////////
 ////////////////////////////////////////////////////////////////*/
 
+
 /* /////////////////////////////////////// ///////////////////////
 /////////////////////////////// PT Serif starts //////////////
 /////////////////////////////////////////////////////////////*/
+
 .header-serif-1 {
-  font-family: "PT Serif";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 64px;
-  color: #1c1c1f;
+    font-family: "PT Serif";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    color: #1c1c1f;
 }
+
 .header-serif-2 {
-  font-family: " PT Serif";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 35px;
-  color: #1c1c1f;
+    font-family: " PT Serif";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    color: #1c1c1f;
 }
 
 .bold-2 {
-  font-family: "PT Serif";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 30px;
-  color: #1c1c1f;
+    font-family: "PT Serif";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    color: #1c1c1f;
 }
 
 .bold-3 {
-  font-family: "PT Serif";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
-  color: #1c1c1f;
+    font-family: "PT Serif";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    color: #1c1c1f;
 }
 
 .header-pt-1 {
-  font-family: "PT Serif";
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0em;
-  text-align: left;
+    font-family: "PT Serif";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
 .header-pt-2 {
-  font-family: "PT Serif";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 32px;
-  letter-spacing: 0em;
-  text-align: left;
+    font-family: "PT Serif";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
 }
+
 
 /*/////////////////////////////////////////////////////////
  ///////////  Text color starts
  ////////////////////////////////////////////////////////*/
 
 .text-yellow {
-  color: #ff7300;
+    color: #ff7300;
 }
 
 .text-black-700 {
-  color: #1c1c1f;
+    color: #1c1c1f;
 }
 
+.text-gray {
+    color: #d1d1d1;
+}
+
+
 /* Text color ends */
+
 
 /*/////////////////////////////////////////////////////////
  ///////////  Text decoration starts
  ////////////////////////////////////////////////////////*/
 
 .lined {
-  position: relative;
+    position: relative;
 }
 
 .lined::before {
-  content: "";
-  width: 100%;
-  height: 1px;
-  background: #ebebeb;
-  position: absolute;
-  left: 0;
-  top: 50%;
-  z-index: -1;
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #ebebeb;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -1;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
 }
 
 .lined .bg {
-  background-color: white;
-  padding: 0 16px;
+    background-color: white;
+    padding: 0 16px;
 }
+
 
 /* Text decoration ends */
