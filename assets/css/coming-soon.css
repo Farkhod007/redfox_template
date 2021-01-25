@@ -222,35 +222,28 @@ footer a:hover {
     display: block;
   }
   .footer-items h4 {
-    display: flex !important;
+    display: flex;
     justify-content: space-between;
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
   }
   .footer-items ul {
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .3s ease-out;
     margin: 10px 15px;
-  }
-  .footer-items button {
-    display: block;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    border: none;
-    outline: none;
-    background: #1c1c1f;
   }
   .footer-items .item-1 {
     margin: 0;
   }
   .footer-items .active {
-    display: block !important;
     border-bottom: 01px solid #ebebeb;
     margin-bottom: 20px;
   }
   .footer-items .active ul {
-    display: block;
+    max-height: 1000px;
+    transition: max-height .3s ease-in;
   }
   .footer-items .active li {
     margin-bottom: 25px;
