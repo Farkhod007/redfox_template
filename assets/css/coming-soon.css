@@ -52,11 +52,9 @@
 /*////////////////////////////////////
  ////////////// header starts/////////////
  ///////////////////////////////////  */
-
 .header-items {
-  width: 100%;
   max-width: 1110px;
-  margin-top: 103px;
+  margin: 103px auto 0 auto;
 }
 .header-items h1 {
   text-align: center;
