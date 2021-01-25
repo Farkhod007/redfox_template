@@ -32,6 +32,10 @@
 }
 
 @media (max-width: 1200px) {
+  .nav .nav__list {
+    display: flex;
+    margin-right: 0;
+  }
 }
 @media (max-width: 816px) {
   .nav img{
