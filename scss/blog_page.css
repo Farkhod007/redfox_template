@@ -1,0 +1,143 @@
+body main .contaier .text1 {
+  Width: 832px;
+  margin: 180px auto;
+  margin-bottom: 0px; }
+  body main .contaier .text1 .font-61 {
+    margin: 16px 0px 70px 0px;
+    opacity: .5; }
+  body main .contaier .text1 .caption {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 16px; }
+body main .contaier .img1 img {
+  display: block;
+  max-width: 1110px;
+  height: 624px;
+  margin: 0px auto; }
+body main .contaier .img1 .body-9-01 {
+  margin: 10px auto;
+  margin-bottom: 20px;
+  text-align: center; }
+body main .contaier .text2 {
+  Width: 832px;
+  margin: 55px auto;
+  margin-top: 0px; }
+  body main .contaier .text2 .title-1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 50px 0px 16px 0px; }
+body main .contaier .text3 .body-9-01 {
+  margin: 9px 250px; }
+body main .contaier .text3 .header-1 {
+  margin: 30px auto; }
+body main .contaier .text3 .font-61 {
+  margin: 16px auto; }
+body main .contaier .text3 .font-00 {
+  display: block;
+  margin: 30px auto;
+  text-align: center; }
+body main .contaier .text3 .bold-01 {
+  width: 700px;
+  text-align: center;
+  margin: 0px auto; }
+body main .contaier .text3 .font-61 {
+  margin: 30px 0px 0px 0px; }
+body main .contaier .text4 .img {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+  body main .contaier .text4 .img img {
+    margin: 57px 20px 0px 70px; }
+  body main .contaier .text4 .img .header-serif-2 {
+    width: 700px;
+    margin-top: 50px;
+    margin-left: 20px; }
+body main .contaier .text4 .title .note {
+  margin-top: 49px; }
+body main .contaier .text4 .title .staff h3 {
+  color: #ff7300;
+  margin-left: 50px;
+  margin-top: 31px; }
+  body main .contaier .text4 .title .staff h3 strong {
+    color: black;
+    margin-left: 31px; }
+  body main .contaier .text4 .title .staff h3 b {
+    font-weight: 400;
+    color: black;
+    font-style: italic; }
+body main .contaier .text4 .title .staff .vlog {
+  margin-left: 95px; }
+  body main .contaier .text4 .title .staff .vlog .fa-star {
+    color: gold;
+    margin-left: 5px; }
+body main .contaier .text4 .clock {
+  margin-top: 31px; }
+body main .contaier .text4 hr {
+  margin-top: 80px; }
+body main .contaier .text4 .button_heshtag button {
+  width: 96px;
+  height: 29px;
+  background: #F1F1F1;
+  border-radius: 3px;
+  border: none;
+  margin-top: 16px;
+  margin-right: 15px; }
+body main .contaier .user {
+  Width: 832px;
+  margin: 68px auto; }
+  body main .contaier .user img {
+    border-radius: 50px;
+    margin-right: 15px;
+    width: 50px; }
+  body main .contaier .user p {
+    margin-left: 60px;
+    margin-top: -50px; }
+body main .container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #F9F9F9;
+  margin-top: 153px;
+  padding-bottom: 186px; }
+  body main .container .section-footer {
+    width: 1110px;
+    margin: 68px auto; }
+    body main .container .section-footer .header-1 {
+      margin: 0px 0px 30px 0px;
+      padding-top: 120px; }
+    body main .container .section-footer .container_blogs {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      padding-top: 30px; }
+      body main .container .section-footer .container_blogs .blog_page {
+        width: 350px; }
+        body main .container .section-footer .container_blogs .blog_page .blog-1 .user_img {
+          width: 93px;
+          border-radius: 50px;
+          margin-top: 16px; }
+        body main .container .section-footer .container_blogs .blog_page .blog-1 .user_name {
+          margin-left: 120px;
+          margin-top: -80px; }
+        body main .container .section-footer .container_blogs .blog_page .header-3 {
+          margin-top: 50px; }
+        body main .container .section-footer .container_blogs .blog_page .blog-img {
+          width: 350px;
+          height: 203px;
+          border-radius: 5px; }
+        body main .container .section-footer .container_blogs .blog_page .blog_text {
+          margin-top: 16px; }
+          body main .container .section-footer .container_blogs .blog_page .blog_text .button {
+            margin-top: 18px; }
+            body main .container .section-footer .container_blogs .blog_page .blog_text .button a:hover {
+              border-bottom: 4px solid silver; }
+
+@media (max-width: 1200px) {
+  body {
+    background: blue; } }
+@media (max-width: 816px) {
+  body {
+    background: red; } }
+
+/*# sourceMappingURL=blog_page.css.map */

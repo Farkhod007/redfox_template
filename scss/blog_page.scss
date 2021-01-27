@@ -1,0 +1,264 @@
+body {
+  main {
+    // Asosiy container starts //
+    .contaier {
+
+      .text1 {
+        Width: 832px;
+        margin: 180px auto;
+        margin-bottom: 0px;
+
+        .font-61 {
+          margin: 16px 0px 70px 0px;
+          opacity: .5;
+        }
+
+        .caption {
+          font-size: 20px;
+          line-height: 30px;
+          margin-bottom: 16px;
+        }
+      }
+
+      .img1 {
+        img {
+          display: block;
+          max-width: 1110px;
+          height: 624px;
+          margin: 0px auto;
+        }
+
+        .body-9-01 {
+          margin: 10px auto;
+          margin-bottom: 20px;
+          text-align: center;
+        }
+      }
+
+      .text2 {
+        Width: 832px;
+        margin: 55px auto;
+        margin-top: 0px;
+
+        .title-1 {
+          font-family: Inter;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 30px;
+          line-height: 36px;
+          margin: 50px 0px 16px 0px;
+        }
+      }
+
+      .text3 {
+        .body-9-01 {
+          margin: 9px 250px;
+        }
+
+        .header-1 {
+          margin: 30px auto;
+        }
+
+        .font-61 {
+          margin: 16px auto;
+        }
+
+        .font-00 {
+          display: block;
+          margin: 30px auto;
+          text-align: center;
+        }
+
+        .bold-01 {
+          width: 700px;
+          text-align: center;
+          margin: 0px auto;
+        }
+
+        .font-61 {
+          margin: 30px 0px 0px 0px;
+        }
+      }
+
+      .text4 {
+        .img {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+
+          img {
+            margin: 57px 20px 0px 70px;
+          }
+
+          .header-serif-2 {
+            width: 700px;
+            margin-top: 50px;
+            margin-left: 20px;
+          }
+        }
+
+        .title {
+          .note {
+            margin-top: 49px;
+          }
+
+          .staff {
+            h3 {
+              color: rgba(255, 115, 0, 1);
+              margin-left: 50px;
+              margin-top: 31px;
+
+              strong {
+                color: black;
+                margin-left: 31px;
+              }
+
+              b {
+                font-weight: 400;
+                color: black;
+                font-style: italic;
+              }
+            }
+
+            .vlog {
+              margin-left: 95px;
+
+              .fa-star {
+                color:gold;
+                margin-left: 5px;
+              }
+            }
+          }
+        }
+
+        .clock {
+          margin-top: 31px;
+        }
+
+        hr {
+          margin-top: 80px;
+        }
+
+        .button_heshtag {
+          button {
+            width: 96px;
+            height: 29px;
+            background: #F1F1F1;
+            border-radius: 3px;
+            border: none;
+            margin-top: 16px;
+            margin-right: 15px;
+          }
+        }
+      }
+
+      .user {
+        Width: 832px;
+        margin: 68px auto;
+        //display: block;
+        //margin-top: -47px;
+        //margin-left: 82px;
+        img {
+          border-radius: 50px;
+          margin-right: 15px;
+          width: 50px;
+        }
+
+        p {
+          margin-left: 60px;
+          margin-top: -50px;
+        }
+      }
+    }
+
+    // Asosiy container ends //
+
+    // O'xshash maqolalar starts //
+    .container {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      background: #F9F9F9;
+      margin-top: 153px;
+      padding-bottom: 186px;
+
+      .section-footer {
+        width: 1110px;
+        margin: 68px auto;
+
+        .header-1 {
+          margin: 0px 0px 30px 0px;
+          padding-top: 120px;
+        }
+
+        // Cards starts //
+        .container_blogs {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          padding-top: 30px;
+
+          .blog_page {
+            width: 350px;
+
+            .blog-1 {
+              .user_img {
+                width: 93px;
+                border-radius: 50px;
+                margin-top: 16px;
+              }
+
+              .user_name {
+                margin-left: 120px;
+                margin-top: -80px;
+              }
+            }
+
+            .header-3 {
+              margin-top: 50px;
+            }
+
+            .blog-img {
+              width: 350px;
+              height: 203px;
+              border-radius: 5px;
+            }
+
+            .blog_text {
+              margin-top: 16px;
+
+              .button {
+                margin-top: 18px;
+
+                a {
+                  &:hover {
+                    border-bottom: 4px solid silver;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        // Cards ends //
+      }
+    }
+
+    // O'xshash maqolalar ends //
+  }
+}
+
+@media (max-width: 1200px) {
+  body {
+    background: blue;
+  }
+}
+@media (max-width: 816px) {
+  body{
+    background: red;
+  }
+}
+
+
+
+
+
+
